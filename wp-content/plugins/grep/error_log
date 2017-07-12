@@ -1,0 +1,3 @@
+[17-Dec-2016 11:37:04 America/Denver] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 463358907 bytes) in /home/brainsinger/public_html/grep/GrepSimulator.inc.php on line 50
+[17-Dec-2016 11:51:27 America/Denver] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 463358907 bytes) in /home/brainsinger/public_html/grep/GrepSimulator.inc.php on line 50
+[17-Dec-2016 11:51:41 America/Denver] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 463358907 bytes) in /home/brainsinger/public_html/grep/GrepSimulator.inc.php on line 50

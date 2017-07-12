@@ -1,0 +1,47 @@
+    <h4>
+        <div class="extra-second-section">Courses</div>
+    </h4> 
+    <select #courseType (change)="captureData('course', 'back_getProductOption', courseType.value)" name="getProductOption"> 
+        <option value="0" [selected]="'0' === cart.course.back_getProductOption">Course type</option> 
+        <option value="1" [selected]="'1' === cart.course.back_getProductOption">Callan Method</option> 
+        <option value="2" [selected]="'2' === cart.course.back_getProductOption">General English</option> 
+        <option value="5" [selected]="'5' === cart.course.back_getProductOption">Exam Courses</option> 
+        <option value="4" [selected]="'4' === cart.course.back_getProductOption">One-to-one</option> 
+    </select>
+
+    <div class="radio-ctype" style="padding:0 0 10px;" *ngIf="cart.course.back_getProductOption > 0">
+        <span *ngFor="let option of viewInfo.course.options; let i = index">
+            <label  class="prod-radio" *ngIf="isVisible(cart.course.back_getProductOption, option.the_id)">
+                <input type="radio" name="productname" class="productname" [checked]="option.the_id === cart.course.back_productid" [value]="option.the_id" (click)="captureData('course', 'back_productid', option.the_id)"> {{ option.product_radio_title }}
+            </label>
+        </span>
+    </div>
+
+    <div id="coursestartdate" [ngClass]="{'hidden': (cart.course && !cart.course.back_productid)}"> 
+        <input type="text" #courseStartDate name="course_date" [value]="cart.course.back_coursestartdate" id="course_date" autocomplete="off" (blur)="captureData('course', 'back_coursestartdate', courseStartDate.value)" placeholder="Course start date"> 
+    </div>
+
+    <div id="courseweekdiv" *ngIf="weeks"> 
+        <select id="courseweek" #backCourseweek (change)="captureData('course', 'back_courseweek', backCourseweek.value)">
+            <option value="">Course length</option>
+            <option *ngFor="let week of weeks" [selected]="week.slug === cart.course.back_courseweek" [value]="week.slug">{{week.name}}</option>
+        </select> 
+    </div>
+
+    <div id="feedback" *ngIf="levels"> 
+        <select #backCourseLevel (change)="captureData('course', 'back_course_level', backCourseLevel.value)">
+            <option value="">I think my level is</option>
+            <option *ngFor="let level of levels" [selected]="level.slug === cart.course.back_course_level" [value]="level.slug">{{level.name}}</option>
+        </select> 
+    </div>
+
+    <div id="ex-student" *ngIf="levels"> 
+        <select id="you-ex-student" #backExStudent (change)="captureData('course', 'back_ex_student', backExStudent.value)"> 
+            <option value="" [selected]="'' === cart.course.back_ex_student">Are you an ex-student?</option> 
+            <option value="yes" [selected]="'yes' === cart.course.back_ex_student">YES - no registration fee added</option> 
+            <option value="no" [selected]="'no' === cart.course.back_ex_student">NO - registration fee added</option> 
+        </select> 
+    </div>
+
+    <div class="spinner"></div>
+    

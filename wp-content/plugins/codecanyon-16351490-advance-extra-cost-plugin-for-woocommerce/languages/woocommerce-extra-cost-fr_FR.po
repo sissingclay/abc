@@ -1,0 +1,742 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-08-26 13:04+0530\n"
+"PO-Revision-Date: 2016-08-26 13:12+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-woocommerce-extra-cost-admin.php:134
+msgid "Welcome to WooCommerce Extra Cost 1.1"
+msgstr "Bienvenue à WooCommerce coût supplémentaire 1.1"
+
+#: admin/class-woocommerce-extra-cost-admin.php:138
+#, php-format
+msgid ""
+"%s <p class='aecw-div-congo'>Thanks for installing! Add extra cost/charges "
+"to customer's order based on different conditions</p>"
+msgstr ""
+"%s <p class='aecw-div-congo'>Merci d'avoir installé ! Ajouter les coûts "
+"supplémentaires / charges à la commande du client en fonction des conditions "
+"différentes</p>"
+
+#: admin/class-woocommerce-extra-cost-admin.php:144
+msgid "Overview"
+msgstr "aperçu"
+
+#: admin/class-woocommerce-extra-cost-admin.php:144
+msgid "Checkout our other plugins"
+msgstr "Découvrez nos autres plugins"
+
+#: admin/class-woocommerce-extra-cost-admin.php:167
+msgid "Go to WooCommerce Extra Cost Settings"
+msgstr "Allez à WooCommerce Paramètres de coût supplémentaire"
+
+#: admin/class-woocommerce-extra-cost-admin.php:259
+msgid "Configure Extra cost as per your needs"
+msgstr "Configurer le coût supplémentaire selon vos besoins"
+
+#: admin/class-woocommerce-extra-cost-admin.php:262
+msgid ""
+"<p>WooCommerce Extra Cost plugin opens the possibility to add wide variety "
+"of option to add extra cost on the product. You can configure extra cost "
+"like - based on cart maximum total, based on country, based on cart total, "
+"based on product,based on product category etc.</p>"
+msgstr ""
+"<p>WooCommerce plugin coût supplémentaire ouvre la possibilité d'ajouter "
+"grande variété d' option pour ajouter des frais supplémentaires sur le "
+"produit. Vous pouvez configurer des frais supplémentaires comme - sur la "
+"base de panier total maximum , en fonction du pays , sur la base de panier "
+"totale , en fonction du produit , selon la catégorie de produit, etc.</p>"
+
+#: admin/class-woocommerce-extra-cost-admin.php:264
+msgid ""
+"<p>The \"Advance Extra Cost for Woocommerce\" allow store owners to add "
+"extra fixed charges/cost to the customers order based on different "
+"conditions. You can configure product specific, category specific, country "
+"specific or order amount specific extra charges and it will be applicable to "
+"entire order.  The charges will be added to the cart total.</p>"
+msgstr ""
+"<p>Le «avance Coût supplémentaire pour WooCommerce \" laisser les "
+"propriétaires de magasins pour ajouter supplémentaire fixe charges / coûts "
+"pour les clients ordre fondé sur des conditions différentes. Vous pouvez "
+"configurer produit spécifique , catégorie spécifique , montant spécifique ou "
+"pour le pays des frais supplémentaires spécifiques et il sera applicable à "
+"l'ordre entier. Les frais seront ajoutés à votre panier totale.</p>"
+
+#: admin/class-woocommerce-extra-cost-admin.php:339
+msgid "Seeking Translators"
+msgstr "Cherchant Traducteurs"
+
+#: admin/class-woocommerce-extra-cost-admin.php:340
+msgid ""
+"We appreciate any help we can get translating this plugin into other "
+"languages."
+msgstr ""
+"Nous apprécions toute aide que nous pouvons obtenir la traduction de ce "
+"plugin dans d'autres langues ."
+
+#: admin/class-woocommerce-extra-cost-admin.php:354
+msgid "Extra Cost Label:"
+msgstr "Label coût supplémentaire:"
+
+#: admin/class-woocommerce-extra-cost-admin.php:357
+msgid "Enter the label here."
+msgstr "Entrez l'étiquette ici."
+
+#: admin/class-woocommerce-extra-cost-admin.php:365
+msgid "Extra Cost Amount:"
+msgstr "Montant des coûts supplémentaires:"
+
+#: admin/class-woocommerce-extra-cost-admin.php:368
+msgid "Enter extra cost amount here."
+msgstr "Entrez le montant du coût supplémentaire ici."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:64
+msgid "Advance Extra Cost"
+msgstr "Avance coût supplémentaire"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:167
+msgid "Advance Extra Cost Settings"
+msgstr "Advance Paramètres coût supplémentaires"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:169
+msgid ""
+"The \"Advance Extra Cost for Woocommerce\" allow store owners to add extra "
+"fixed charges/cost to the customers order based on different conditions. You "
+"can configure product specific, category specific, country specific or order "
+"amount specific extra charges and it will be applicable to entire order.  "
+"The charges will be added to the cart total of the cart."
+msgstr ""
+"Le \"avance Coût supplémentaire pour WooCommerce \" laisser les "
+"propriétaires de magasins pour ajouter supplémentaire fixe charges / coûts "
+"pour les clients ordre fondé sur des conditions différentes. Vous pouvez "
+"configurer produit spécifique , catégorie spécifique , montant spécifique ou "
+"pour le pays des frais supplémentaires spécifiques et il sera applicable à "
+"l'ordre entier. Les frais seront ajoutés à votre panier total du panier."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:170
+msgid "You can charge Extra cost in two types"
+msgstr "Vous pouvez charger le coût supplémentaire en deux types"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:172
+msgid "Fixed cost"
+msgstr "Coûts fixes"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:173
+#: admin/partials/woocommerce-extra-cost-admin-display.php:177
+msgid "For example:"
+msgstr "Par exemple:"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:174
+msgid ""
+"1. You can charge extra cost based on \"Country\" like USA= $10. Ex. If user "
+"purchase products from the USA then extra $10 cost will be added to the cart "
+"total."
+msgstr ""
+"1. Vous pouvez charger des frais supplémentaires en fonction de \"Pays \" "
+"comme les USA = 10 $ . Ex. Si l'achat de produits de l'utilisateur des Etats-"
+"Unis , puis 10 $ frais supplémentaires seront ajoutés à votre panier totale."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:175
+msgid ""
+"2. You can charge extra cost based on \"Cart total Quantity\" like cart "
+"total Quantity = 5. Ex. If Cart total Quantity =\"5\" and above then extra "
+"$3 cost will be added to the cart total."
+msgstr ""
+"2. Vous pouvez charger des frais supplémentaires en fonction de \" panier "
+"Quantité totale \" comme panier totale Quantité = 5. Ex . Si Total du panier "
+"Quantité = et 3 ci-dessus $ supplémentaires coût \" 5 \" sera ajouté à votre "
+"panier totale."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:176
+msgid "Percentage (Calculate on sub total)"
+msgstr "Pourcentage ( Calculer le sous-total )"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:178
+msgid ""
+"1. You can charge extra cost based on \"Country\" like USA= 10% of sub "
+"total. Ex. If user purchase products $500 from the USA then extra $50 (It "
+"will calculate on cart sub total $500 *10% = $50) cost will be added to the "
+"cart total."
+msgstr ""
+"1. Vous pouvez charger des frais supplémentaires en fonction de \"Pays \" "
+"comme les USA = 10% du sous-total . Ex. Si l'utilisateur d'acheter des "
+"produits 500 $ des Etats-Unis , puis 50 $ ( Il va calculer le panier Sous-"
+"total $ 500 * 10 % = 50 $ ) le coût sera ajouté à votre panier totale."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:179
+msgid ""
+"2. You can charge extra cost based on \"Cart total Weight\" like Cart total "
+"Weight = 500 lbs and charge 20% extra (20% on sub total) and . Ex. If Cart "
+"total Weight = \"500 lbs\" and above then extra $100 (It will calculate on "
+"cart sub total $500 *20% = $100) cost will be added to the cart total."
+msgstr ""
+"2. Vous pouvez charger des frais supplémentaires en fonction de \" panier "
+"Poids total\" comme panier Poids total = 500 lb et une charge de 20 % "
+"supplémentaires (20 % sur le total sous ) et . Ex. Si Total du panier Poids "
+"= \"500 lbs \" et ci-dessus puis 100 $ ( Il va calculer le panier Sous-total "
+"$ 500 * 20 % = 100 $ ) le coût sera ajouté à votre panier totale."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:184
+msgid "Global Settings"
+msgstr "Paramètres globaux"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:190
+msgid "Based on Country"
+msgstr "Sur la base de Pays"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:194
+#: admin/partials/woocommerce-extra-cost-admin-display.php:286
+#: admin/partials/woocommerce-extra-cost-admin-display.php:417
+#: admin/partials/woocommerce-extra-cost-admin-display.php:466
+#: admin/partials/woocommerce-extra-cost-admin-display.php:498
+#: admin/partials/woocommerce-extra-cost-admin-display.php:642
+#: admin/partials/woocommerce-extra-cost-admin-display.php:747
+#: admin/partials/woocommerce-extra-cost-admin-display.php:855
+#: admin/partials/woocommerce-extra-cost-admin-display.php:977
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1104
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1135
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1266
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1396
+msgid "( Enable )"
+msgstr "( Activer )"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:196
+#: admin/partials/woocommerce-extra-cost-admin-display.php:288
+#: admin/partials/woocommerce-extra-cost-admin-display.php:419
+#: admin/partials/woocommerce-extra-cost-admin-display.php:468
+#: admin/partials/woocommerce-extra-cost-admin-display.php:500
+#: admin/partials/woocommerce-extra-cost-admin-display.php:644
+#: admin/partials/woocommerce-extra-cost-admin-display.php:749
+#: admin/partials/woocommerce-extra-cost-admin-display.php:857
+#: admin/partials/woocommerce-extra-cost-admin-display.php:979
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1106
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1137
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1268
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1398
+msgid "( Disable )"
+msgstr "( Désactiver )"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:202
+msgid "Using this feature you can charge Extra Cost based on country."
+msgstr ""
+"En utilisant cette fonctionnalité, vous pouvez charger un coût "
+"supplémentaire en fonction du pays."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:203
+msgid ""
+"For example, you can charge extra cost based on \"Country\" like USA= $10. "
+"Ex. If user purchase products from the USA then extra $10 cost will be added "
+"to the cart total."
+msgstr ""
+"Par exemple , vous pouvez facturer des frais supplémentaires en fonction de "
+"\"Pays \" comme les USA = 10 $ . Ex. Si l'achat de produits de l'utilisateur "
+"des Etats-Unis , puis 10 $ frais supplémentaires seront ajoutés à votre "
+"panier totale."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:211
+#: admin/partials/woocommerce-extra-cost-admin-display.php:301
+#: admin/partials/woocommerce-extra-cost-admin-display.php:430
+#: admin/partials/woocommerce-extra-cost-admin-display.php:480
+#: admin/partials/woocommerce-extra-cost-admin-display.php:512
+#: admin/partials/woocommerce-extra-cost-admin-display.php:667
+#: admin/partials/woocommerce-extra-cost-admin-display.php:760
+#: admin/partials/woocommerce-extra-cost-admin-display.php:869
+#: admin/partials/woocommerce-extra-cost-admin-display.php:991
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1117
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1149
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1278
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1410
+msgid "Enable / Disable"
+msgstr "Activer / Désactiver"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:213
+#: admin/partials/woocommerce-extra-cost-admin-display.php:303
+#: admin/partials/woocommerce-extra-cost-admin-display.php:432
+#: admin/partials/woocommerce-extra-cost-admin-display.php:514
+#: admin/partials/woocommerce-extra-cost-admin-display.php:670
+#: admin/partials/woocommerce-extra-cost-admin-display.php:762
+#: admin/partials/woocommerce-extra-cost-admin-display.php:871
+#: admin/partials/woocommerce-extra-cost-admin-display.php:993
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1119
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1151
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1280
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1412
+msgid "Select Charge Type"
+msgstr "Sélectionner le type de charge"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:224
+msgid "Country Code"
+msgstr "Code postal"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:225
+#: admin/partials/woocommerce-extra-cost-admin-display.php:315
+#: admin/partials/woocommerce-extra-cost-admin-display.php:525
+#: admin/partials/woocommerce-extra-cost-admin-display.php:682
+#: admin/partials/woocommerce-extra-cost-admin-display.php:712
+#: admin/partials/woocommerce-extra-cost-admin-display.php:789
+#: admin/partials/woocommerce-extra-cost-admin-display.php:820
+#: admin/partials/woocommerce-extra-cost-admin-display.php:901
+#: admin/partials/woocommerce-extra-cost-admin-display.php:932
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1005
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1163
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1293
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1425
+msgid "Cost Title"
+msgstr "Coût Titre"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:226
+#: admin/partials/woocommerce-extra-cost-admin-display.php:317
+#: admin/partials/woocommerce-extra-cost-admin-display.php:527
+#: admin/partials/woocommerce-extra-cost-admin-display.php:684
+#: admin/partials/woocommerce-extra-cost-admin-display.php:714
+#: admin/partials/woocommerce-extra-cost-admin-display.php:791
+#: admin/partials/woocommerce-extra-cost-admin-display.php:822
+#: admin/partials/woocommerce-extra-cost-admin-display.php:903
+#: admin/partials/woocommerce-extra-cost-admin-display.php:934
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1007
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1165
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1295
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1427
+msgid "Amount to Charge"
+msgstr "Montant Charge"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:272
+#: admin/partials/woocommerce-extra-cost-admin-display.php:401
+#: admin/partials/woocommerce-extra-cost-admin-display.php:613
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1089
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1250
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1383
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1515
+msgid "Insert row"
+msgstr "Insérer une ligne"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:273
+#: admin/partials/woocommerce-extra-cost-admin-display.php:402
+#: admin/partials/woocommerce-extra-cost-admin-display.php:614
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1090
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1251
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1384
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1516
+msgid "Remove selected row(s)"
+msgstr "Supprimer la ligne sélectionnée (s)"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:282
+msgid "Based on User Role"
+msgstr "Basé sur le rôle de l'utilisateur"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:294
+msgid ""
+"Using this feature you can charge Extra Cost based on User Role.(like Author,"
+"Subscriber)"
+msgstr ""
+"En utilisant cette fonctionnalité, vous pouvez charger un coût "
+"supplémentaire basé sur le rôle de l'utilisateur. (Comme Auteur , abonné )"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:295
+msgid ""
+"For example, if we select user role \"author\" = $30 extra cost. When "
+"\"author\" add product in to the cart then extra $30 cost will be added to "
+"the total cart."
+msgstr ""
+"Par exemple, si nous choisissons rôle d'utilisateur \"auteur\" = 30 $ de "
+"frais supplémentaires. Lorsque \"auteur\" ajouter le produit dans le "
+"panier , puis 30 $ le coût sera ajouté à votre panier totale."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:316
+msgid "Select User Role"
+msgstr "Sélectionnez Rôle de l'utilisateur"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:413
+msgid "Based on Shipping Class"
+msgstr "Sur la base de la classe d'expédition"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:423
+msgid ""
+"Using this feature you can charge Extra Cost based on Shipping Classes. You "
+"can view all product shipping class here."
+msgstr ""
+"En utilisant cette fonctionnalité, vous pouvez charger un coût "
+"supplémentaire en fonction des classes d'expédition . Vous pouvez voir tous "
+"les produits de classe d'expédition ici."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:424
+msgid ""
+"For example, Lets say shipping class \"Large\" = $20 extra cost. When the "
+"customer adds \"Large\"  shipping class product into the cart then extra $20 "
+"cost will be add into the cart."
+msgstr ""
+"Par exemple , la classe Permet d'expédition \"Large\" = 20 $ frais "
+"supplémentaires dire. Lorsque le client ajoute le produit de la classe "
+"d'expédition \"Large\" dans le panier , puis 20 $ le coût sera ajouter dans "
+"le panier."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:425
+msgid "These costs can optionally be added based on the "
+msgstr "Ces coûts peuvent éventuellement être ajoutés en fonction de la"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:425
+msgid "product shipping class"
+msgstr "produit de classe d'expédition"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:434
+#: admin/partials/woocommerce-extra-cost-admin-display.php:672
+#: admin/partials/woocommerce-extra-cost-admin-display.php:764
+#: admin/partials/woocommerce-extra-cost-admin-display.php:873
+#: admin/partials/woocommerce-extra-cost-admin-display.php:995
+msgid "Fixed"
+msgstr "Fixé"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:435
+#: admin/partials/woocommerce-extra-cost-admin-display.php:673
+#: admin/partials/woocommerce-extra-cost-admin-display.php:765
+#: admin/partials/woocommerce-extra-cost-admin-display.php:874
+#: admin/partials/woocommerce-extra-cost-admin-display.php:996
+msgid "Percentage (%)"
+msgstr "Pourcentage (%)"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:449
+msgid "Shipping Class"
+msgstr "Expédition classe"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:462
+msgid "Remove all Extra Cost Based on Max Total"
+msgstr "Retirez tout coût supplémentaire Basé sur Max total"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:472
+msgid ""
+"Using this feature you can remove all extra cost based on Maximum Cart Total "
+"Amount."
+msgstr ""
+"En utilisant cette fonctionnalité, vous pouvez supprimer tous les frais "
+"supplémentaires en fonction de maximum panier Montant total."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:473
+msgid ""
+"For example, if we specify maximum cart total amount = $500 and above then "
+"remove all extra cost. When customer cart total amount $500 and above then "
+"remove all extra cost from the current cart."
+msgstr ""
+"Par exemple, si nous spécifions montant panier total maximum = $ 500 et ci-"
+"dessus puis retirez tout coût supplémentaire . Lorsque 500 panier du client "
+"montant total $ et plus puis retirez tout coût supplémentaire du panier "
+"actuel."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:484
+msgid "Enter Maximum Cart Total Amount"
+msgstr "Entrez maximum panier Montant total"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:494
+msgid "Based on Payment Gateway"
+msgstr "Sur la base de la passerelle de paiement"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:506
+#: admin/partials/woocommerce-extra-cost-admin-display.php:984
+msgid ""
+"Using this feature you can charge Extra Cost based on Product. you can see "
+"all product here."
+msgstr ""
+"En utilisant cette fonctionnalité, vous pouvez charger un coût "
+"supplémentaire sur la base du produit . vous pouvez voir tous ici."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:526
+msgid "Select Payment Gateway"
+msgstr "Sélectionnez la passerelle de paiement"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:633
+msgid "Cart Based Settings"
+msgstr "Panier Sur la base des paramètres"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:638
+msgid "Based on Cart Total"
+msgstr "Basé sur le panier total"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:649
+msgid ""
+"Using this feature you can charge Extra Cost based on Maximum and Minimum "
+"Cart Total value."
+msgstr ""
+"En utilisant cette fonctionnalité, vous pouvez charger un coût "
+"supplémentaire basé sur le panier Valeur totale maximale et minimale."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:650
+msgid ""
+"For example, if we specify cart total value greater than or equal to (>=) "
+"$500 then charge Extra cost $20 and if cart total less than or equal to (>=) "
+"$100 then charge Extra cost $30. When the customer cart total amount is $500 "
+"and above then Extra $20 cost will be added to the cart total. OR if cart "
+"total amount is $100 and less then Extra $30 cost will be added to the cart "
+"total."
+msgstr ""
+"Par exemple, si nous spécifions panier valeur totale supérieure ou égale à "
+"(> = ) 500 $ facturent ensuite le coût supplémentaire de 20 $ et si panier "
+"total inférieur ou égal à ( > = ) 100 $ facturent ensuite le coût "
+"supplémentaire de 30 $. Lorsque le montant panier total de clients est de "
+"500 $ et plus , puis 20 $ le coût sera ajouté à votre panier totale . OU si "
+"le montant panier total est de 100 $ et moins de 30 $ le coût sera ajouté au "
+"panier totale."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:678
+msgid "If the cart total is greater than or equal to (>=) "
+msgstr "Si le panier total est supérieur ou égal à (> = )"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:683
+#: admin/partials/woocommerce-extra-cost-admin-display.php:713
+msgid "Cart Total"
+msgstr "Panier total"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:708
+msgid "If the cart total is less than or equal to (<=)  "
+msgstr "Si le panier total est inférieur ou égal à (<= )"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:743
+msgid "Based on Total Cart Quantity"
+msgstr "Sur la base de Total Panier Quantité"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:753
+msgid ""
+"Using this feature you can charge Extra Cost based on maximum and minimum "
+"cart total quantity."
+msgstr ""
+"En utilisant cette fonctionnalité, vous pouvez charger un coût "
+"supplémentaire en fonction de panier quantité totale maximale et minimale."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:754
+msgid ""
+"For example, if we specify Cart Total Quantity greater than or equal to (>=) "
+"20 then charge Extra cost $20 and if cart total Quantity less than or equal "
+"to (>=) 10 then charge Extra cost $10. When the customer cart total Quantity "
+"is 22 and above then Extra $20 cost will be added to the cart total. OR if "
+"cart total Quantity is 8 and less then Extra $10 cost will be added to the "
+"cart total."
+msgstr ""
+"Par exemple, si nous spécifions panier Quantité totale supérieure ou égale à "
+"(> = ) 20 charger puis coût supplémentaire de 20 $ et si panier Quantité "
+"totale inférieure ou égale à (> = ) 10 charger puis coût supplémentaire de "
+"10 $ . Lorsque le panier de la clientèle totale Quantité est 22 et ci-dessus "
+"supplémentaire de 20 $ le coût sera ajouté à votre panier totale . OU si "
+"panier Quantité totale est de 8 et moins de 10 $ le coût supplémentaire sera "
+"ajouté au panier totale."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:784
+msgid "If the cart quantity is greater than or equal to (>=) "
+msgstr "Si la quantité est panier supérieur ou égal à (> =)"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:790
+#: admin/partials/woocommerce-extra-cost-admin-display.php:821
+msgid "Cart Quantity"
+msgstr "Panier Quantité"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:815
+msgid "If the cart quantity is less than or equal to (<=)  "
+msgstr "Si le chariot quantité est inférieure ou égale à (<=)"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:851
+msgid "Based on Total Cart Weight"
+msgstr "Sur la base de Total Panier Poids"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:861
+msgid ""
+"Using this feature you can charge Extra Cost based on maximum and minimum "
+"cart total weight."
+msgstr ""
+"En utilisant cette fonctionnalité, vous pouvez charger un coût "
+"supplémentaire en fonction de panier poids total maximum et minimum."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:862
+msgid ""
+"For example, if we specify Cart Total Weight greater than or equal to (>=) "
+"500 lbs then charge Extra cost $50 and if cart total weight less than or "
+"equal to (>=) 300 lbs then charge Extra cost $20. When the customer cart "
+"total weight is 550 lbs and above then Extra $50 cost will be added to the "
+"cart total. OR if cart total weight is 250 lbs and less then Extra $20 cost "
+"will be added to the cart total."
+msgstr ""
+"Par exemple, si nous spécifions panier Poids total supérieur ou égal à (> =) "
+"500 lbs facturent ensuite le coût supplémentaire de 50 $ et si panier poids "
+"total inférieur ou égal à (> = ) 300 lbs de charge alors le coût "
+"supplémentaire de 20 $ . Lorsque le panier du client poids total est de 550 "
+"lbs et au-dessus , puis 50 $ le coût sera ajouté à votre panier totale . OU "
+"si panier poids total est de 250 lbs et moins de 20 $ le coût sera ajouté au "
+"panier totale."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:896
+msgid "If the cart weight is greater than or equal to (>=) "
+msgstr "Si le panier poids est supérieur ou égal à (> = )"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:902
+#: admin/partials/woocommerce-extra-cost-admin-display.php:933
+msgid "Total Cart Weight"
+msgstr "Total Panier Poids"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:927
+msgid "If the cart weight is less than or equal to (<=) "
+msgstr "Si le panier poids est inférieur ou égal à (<= )"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:967
+msgid "Product Based Settings"
+msgstr "Paramètres du produit Basé"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:973
+msgid "Based on Product"
+msgstr "Basé sur le produit"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:985
+msgid ""
+"For example, if we select product \"beach T-shirt\" = $20 extra cost. When "
+"the customer adds \"beach T-shirt\" product into the cart then extra $20 "
+"cost will be added into the cart total."
+msgstr ""
+"Par exemple, si nous choisissons produit \" T -shirt de plage\" = 20 $ frais "
+"supplémentaires. Lorsque le client ajoute \" la plage T -shirt \" produit "
+"dans le panier , puis 20 $ le coût sera ajouté dans le panier au total."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1006
+msgid "Select Product"
+msgstr "Sélectionner un produit"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1100
+msgid "Enable for Variable Product"
+msgstr "Activer pour Variable produit"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1111
+msgid ""
+"If variable Product is \"Enable\" then you can add \"Extra Cost Message\" "
+"and \"Cost\". When customer will add this product in to the cart at that "
+"time extra cost charge is automatically added in to cart total."
+msgstr ""
+"Si la variable produit est \"Activer\" , vous pouvez ajouter \" Message coût "
+"supplémentaire » et «coût» . Lorsque le client va ajouter ce produit dans le "
+"panier à cette charge de coût supplémentaire de temps est automatiquement "
+"ajouté dans au panier totale."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1112
+msgid ""
+"For example, You have varitions for product with Red and Blue colour.  if we "
+"specify Red = $10 and Blue= $20 extra charge. When customer will add \"red "
+"color product\" in to the cart and  \"extra $10 cost\" will be added in the "
+"cart total."
+msgstr ""
+"Par exemple , vous avez varitions pour produit avec rouge et bleu couleur. "
+"si nous spécifions Rouge = 10 $ et Bleu = $ 20 frais supplémentaires. "
+"Lorsque le client va ajouter \" produit de couleur rouge \" dans le panier "
+"et «10 $ frais supplémentaires \" seront ajoutés dans le panier au total."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1131
+msgid "Based on Product Category"
+msgstr "Basé sur la catégorie de produit"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1142
+msgid ""
+"Using this feature you can charge Extra Cost based on Product Category. you "
+"can view all category here."
+msgstr ""
+"En utilisant cette fonctionnalité, vous pouvez charger un coût "
+"supplémentaire sur la base de catégorie de produit . vous pouvez voir toutes "
+"les catégories ici."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1143
+msgid ""
+"For example, if we select \"Book\" category = $30 extra cost. When the "
+"customer adds \"xyz book\" from book category into the cart then extra $30 "
+"cost will be added into the total cart"
+msgstr ""
+"Par exemple, si nous choisissons la catégorie «Livre» = 30 $ frais "
+"supplémentaires. Lorsque le client ajoute «livre de xyz \" de la catégorie "
+"du livre dans le panier puis 30 $ le coût sera ajouté dans le panier au total"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1164
+msgid "Select Product Category"
+msgstr "Choisir une catégorie de produit"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1262
+msgid "Based on Product Tag"
+msgstr "Sur la base de marque du produit"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1272
+msgid ""
+"Using this feature you can charge Extra Cost based on Product Tag. you can "
+"view all product tag here."
+msgstr ""
+"En utilisant cette fonctionnalité, vous pouvez charger un coût "
+"supplémentaire sur la base Produit Tag . vous pouvez voir tous les tag ici."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1273
+msgid ""
+"For example, if we specify Product Tag \"SPECIAL011\" = $15 extra cost. When "
+"the customer adds product with product tag \"SPECIAL011\"  into the cart "
+"then extra $15 cost will be added to the total cart."
+msgstr ""
+"Par exemple, si nous spécifions Produit Tag \" de SPECIAL011 \" 15 = $ de "
+"frais supplémentaires. Lorsque le client ajoute le produit avec l'étiquette "
+"de produit \" SPECIAL011 \" dans le panier , puis 15 $ le coût sera ajouté à "
+"votre panier totale."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1294
+msgid "Select Product tag"
+msgstr "Sélectionnez étiquette de produit"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1392
+msgid "Based on Product Coupon"
+msgstr "Basé sur coupon de produit"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1403
+msgid ""
+"Using this feature you can charge Extra Cost based on Product Coupon. you "
+"can view all coupons here."
+msgstr ""
+"En utilisant cette fonctionnalité, vous pouvez charger un coût "
+"supplémentaire basé sur coupon de produit . vous pouvez voir tous les "
+"coupons ici."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1404
+msgid ""
+"For example, if we specify Coupon \"Code011\" = $15 extra cost. When the "
+"customer apply coupon \"Code011\" into the cart then extra $15 cost will be "
+"added to the total cart."
+msgstr ""
+"Par exemple, si nous spécifions Coupon \" Code011 \" 15 = $ de frais "
+"supplémentaires. Lorsque le client applique coupon \" Code011 \" dans le "
+"panier , puis 15 $ le coût sera ajouté à votre panier totale."
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1426
+msgid "Select Product Coupon"
+msgstr "Sélectionnez Coupon produit"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1532
+msgid "Please enter valid charge"
+msgstr "S'il vous plaît entrer charge valide"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1533
+msgid "Please enter valid value "
+msgstr "S'il vous plaît entrer une valeur valide"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1534
+msgid "Are you sure to delete this record?"
+msgstr "Êtes-vous sûr de vouloir supprimer cet enregistrement?"
+
+#: admin/partials/woocommerce-extra-cost-admin-display.php:1535
+msgid "Please select row to delete"
+msgstr "S'il vous plaît sélectionner la ligne à supprimer"
+
+#: includes/class-woocommerce-extra-cost.php:154
+msgid "Settings"
+msgstr "Paramètres"
+
+#: includes/class-woocommerce-extra-cost.php:155
+msgid "Docs"
+msgstr "Docs"
+
+#: includes/class-woocommerce-extra-cost.php:156
+msgid "Support"
+msgstr "Soutien"

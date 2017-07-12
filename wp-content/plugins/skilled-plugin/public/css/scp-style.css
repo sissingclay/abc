@@ -1,0 +1,97 @@
+.scp-shortcode h1,
+.scp-shortcode h2,
+.scp-shortcode h3,
+.scp-shortcode h4,
+.scp-shortcode h5,
+.scp-shortcode h6 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    line-height: 14px;
+}
+
+.scp-shortcode p {
+    margin: 0;
+}
+
+.scp-icon-bullet-text-icon,
+.scp-icon-bullet-text-text {
+    float: left;
+}
+
+.scp-icon-bullet-text-text {
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+.scp-icon-bullet-text-text p {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 17px;
+}
+
+.scp-ribbon-wrapper {
+    position: relative;
+}
+
+.scp-ribbon-text {
+    position: relative;
+}
+
+/* Events */
+.linp-tribe-events-wrap {
+    overflow: hidden;
+}
+.linp-tribe-events {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.linp-tribe-events .event {
+    position: relative;
+    min-height: 100px;
+    overflow: hidden;
+    margin-bottom: 22px;
+}
+.linp-tribe-events .event .icon {
+    position: absolute;
+    vertical-align: top;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    top: 0;
+    left: 0;
+}
+.linp-tribe-events .event .icon .date {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.linp-tribe-events .event .info {
+    margin-left: 100px;
+
+}
+.linp-tribe-events .event .info .title {
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+.linp-tribe-events-link {
+    float: right;
+}
+
+.linp-tribe-events .inner-circle {
+    position: relative;
+    width: 100%;
+    background-color: #639;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+@media (max-width: 767px) {
+    .scp-icon-bullet-text {
+        width: 100%;
+        margin-bottom: 18px;
+    }
+
+    /*.scp-shortcode-separator { height: 1px !important; visibility: hidden; }*/
+}

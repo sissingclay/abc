@@ -1,0 +1,21 @@
+ #otw-bm-list-2 .otw_blog_manager-caption-excpert{} #otw-bm-list-2 .otw_blog_manager-caption-title a{} #otw-bm-list-2 .otw_blog_manager-blog-continue-reading{} #otw-bm-list-2 .otw-widget-content{} #otw-bm-list-2 .otw_blog_manager-blog-content p{} #otw-bm-list-2 .otw_blog_manager-blog-title a{} #otw-bm-list-2 .otw-widget-title{} #otw-bm-list-2 .otw_blog_manager-blog-title{} #otw-bm-list-2 .otw_blog_manager-blog-meta-wrapper .head{} #otw-bm-list-2 .otw_blog_manager-blog-meta-wrapper a{} #otw-bm-list-2 .otw_blog_manager-blog-meta-wrapper{}.blog-listing .otw-columns article{
+      border:1px solid #e5e5e5;
+}
+.blog-listing .otw_blog_manager-blog-title-wrapper{
+      padding:5px 20px;
+}
+.blog-listing .otw_blog_manager-blog-content{
+      padding:5px 20px;
+      margin-bottom:20px;
+}
+.blog-listing  .otw-row{
+      margin-bottom:40px;
+}
+.blog-listing  .otw_blog_manager-blog-title-wrapper a{
+      font-size:16px;
+      font-weight:bold;
+      font-family: 'Open Sans', sans-serif;
+}
+.blog-listing .otw-row:last-child{
+     margin-bottom:15px !important;
+}

@@ -1,0 +1,125 @@
+<h4>
+    <div class="extra-second-section">Accommodation</div>
+</h4> 
+
+<select id="accommodation" name="accommodation" #accommodation (change)="captureData('accommodation', 'back_accomdation', accommodation.value)">
+    <option value="1">No accommodation required</option>
+    <optgroup label="Homestay">
+        <option value="2">Homestay - Single room</option>
+        <option value="3">Homestay - Double (two students arriving together)</option>
+    </optgroup>
+    <optgroup label="Flatshare">
+        <option value="4">Flatshare - Single room</option>
+        <option value="5">Flatshare - Twin room to share with another student of the same sex</option>
+    </optgroup> 
+    <optgroup label="Halls of residence">
+        <option value="7">Halls of residence - Single room</option>
+    </optgroup>
+</select>
+
+<div class="radio-ctype"> 
+    <span class="prod-radio-acco"> 
+        <select #product (change)="captureData('accommodation', 'back_meal_plan', product.value)"> 
+            <option value="">Select meal plan</option>
+            <ng-container *ngFor="let option of viewInfo.options">
+                <option *ngIf="isVisible(cart.accommodation.back_accomdation, option.the_id)" [value]="option.the_id"> {{ option.title }} </option>
+            </ng-container>
+        </select> 
+    </span> 
+</div>
+    
+<div id="allow_hide">
+
+    <div id="div_acczones">
+        <div class="acc_zone"></div>
+        <label class="prod-acc-zone-radio" style="margin-left:10px;" *ngFor="let zone of zones">
+            <input class="product_acc_zone" type="radio" [value]="zone.slug" (click)="captureData('accommodation', 'back_product_acc_zone', zone.slug)" name="productacczone"> {{ zone.name }}
+        </label>
+    </div>
+
+    <div class="accselovr">
+
+        <div class="accselct">
+            <select id="accomodation_week" (change)="captureData('accommodation', 'back_accomodation_week', product.value)">
+                <option>Accommodation Length</option>
+            </select>
+        </div>
+
+        <div id="div_accsupplement">
+            <select name="acc_supplement" #accSupplement (change)="captureData('accommodation', 'under_18', accSupplement.value)"> 
+                <option value="">Are you under 18?</option> 
+                <option value="yes">Yes</option> 
+                <option value="no">No</option> 
+            </select>
+        </div>
+
+    </div>
+
+    <div id="acc_date" *ngIf="dates">
+
+        <div id="accstartdate">
+            <label style="float:left; width:51%;">Starting date</label>
+            <input type="text" #accStartdate name="acc_startdate" (click)="captureData('accommodation', 'back_acc_startdate', accStartdate.value)" [value]="dates.start" id="acc_startdate" autocomplete="off" placeholder="Start Date for Accommodation">
+        </div>
+
+        <div id="accenddate">
+            <label>Finishing Date</label>
+            <input type="text" #accEnddate name="acc_enddate" (click)="captureData('accommodation', 'back_acc_enddate', accEnddate.value)" [value]="dates.end" id="acc_enddate" placeholder="End Date for Accommodation">
+        </div>
+
+    </div>
+
+    <select name="smoke" #smoke (change)="captureData('accommodation', 'back_smoke', smoke.value)">
+        <option value="">Do you smoke?</option> 
+        <option value="yessmpoke">Yes</option> 
+        <option value="nosmpoke">No</option> 
+    </select>
+
+    <select name="petbother" #petbother (change)="captureData('accommodation', 'back_petbother', petbother.value)">
+        <option value="">Do pets bother you?</option> 
+        <option value="yespetbother">Yes</option> 
+        <option value="nopetbother">No</option> 
+    </select>
+
+    <select name="bathroom" #bathroom (change)="captureData('accommodation', 'back_bathroom', bathroom.value)">
+        <option value="">Do you need private bathroom?</option> 
+        <option value="yes">Yes</option> 
+        <option value="no">No</option> 
+    </select>
+
+    <div class="allergies-left">
+        <input class="css-checkbox" type="checkbox" name="allergies" id="allergies" #allergy value="Do you have Allergies?" (click)="captureData('accommodation', 'back_allergies', allergy.value)">
+        <label for="allergies" class="css-label">Do you have allergies?</label>
+    </div>
+
+    <div class="allergies-right">
+        <input type="text" maxlength="100" name="allergiestype" #allergiestype (blur)="captureData('accommodation', 'back_allergiestype', allergiestype.value)" placeholder="type allergies here">
+    </div>
+
+    <br>
+
+    <h4>
+        <div class="extra-second-section">Airport transfer</div>
+    </h4>
+
+    <select #transportType (change)="captureData('accommodation', 'back_transport_type', transportType.value)">
+        <option value="">No airport transport required</option>
+        <option *ngFor="let option of viewInfo.extras" [value]="option.the_id"> {{ option.title }} </option>
+    </select>
+
+    <input type="text" name="flightname" #flightname (blur)="captureData('accommodation', 'back_flightname', flightname.value)" maxlength="20" placeholder="Flight number">
+    <br>
+
+    <input type="text" name="arrivaldate" #arrivaldate (blur)="captureData('accommodation', 'back_arrivaldate', arrivaldate.value)" placeholder="Arrival date">
+    <input type="text" name="departuredate" #departuredate (blur)="captureData('accommodation', 'back_departuredate', departuredate.value)" placeholder="Arrival time">
+    <br>
+</div>
+
+<h4>
+    <div class="extra-second-section">Visa</div>
+</h4>
+
+<select name="visa_require" #visaRequire (change)="captureData('accommodation', 'back_visa_require', visaRequire.value)">
+    <option value="">No visa required</option> 
+    <option *ngFor="let visa of viewInfo.visas" [value]="visa.the_id">  {{ visa.title }}</option> 
+</select>

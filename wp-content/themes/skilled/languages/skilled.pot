@@ -1,0 +1,2058 @@
+# Copyright (C) 2016 aislin
+# This file is distributed under the GNU General Public License.
+msgid ""
+msgstr ""
+"Project-Id-Version: Skilled 1.1.2\n"
+"Report-Msgid-Bugs-To: http://example.com/issues\n"
+"POT-Creation-Date: 2016-07-11 11:39:31+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Team Name <team@example.com>\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: 404.php:14
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: 404.php:16
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: functions.php:21
+msgid "Error locating %s for inclusion"
+msgstr ""
+
+#: learnpress/custom/init.php:94
+msgid "Logout"
+msgstr ""
+
+#: learnpress/custom/init.php:96
+msgid "Login"
+msgstr ""
+
+#: learnpress/custom/init.php:138
+#: learnpress_thimpress/course_content-landing_page.php:89
+#: learnpress_thimpress/course_content-learning_page.php:37
+#: learnpress_thimpress/custom/learnpress-functions.php:530
+msgid "Reviews"
+msgstr ""
+
+#: learnpress/custom/init.php:141
+#: learnpress_thimpress/custom/learnpress-functions.php:533
+msgid "Average Rating"
+msgstr ""
+
+#: learnpress/custom/init.php:150
+#: learnpress_thimpress/custom/learnpress-functions.php:541
+msgid "%1$s rating"
+msgid_plural "%1$s ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: learnpress/custom/init.php:150
+#: learnpress_thimpress/custom/learnpress-functions.php:541
+msgid "0 rating"
+msgstr ""
+
+#: learnpress/custom/init.php:155
+#: learnpress_thimpress/custom/learnpress-functions.php:546
+msgid "Detailed Rating"
+msgstr ""
+
+#: learnpress/custom/init.php:216
+#: learnpress_thimpress/custom/learnpress-functions.php:424
+msgid "Leave A Review"
+msgstr ""
+
+#: learnpress/custom/init.php:218
+#: learnpress_thimpress/custom/learnpress-functions.php:426
+msgid ""
+"Please provide as much detail as you can to justify your rating and to help "
+"others."
+msgstr ""
+
+#: learnpress/custom/init.php:222
+#: learnpress_thimpress/custom/learnpress-functions.php:430
+msgid "Title"
+msgstr ""
+
+#: learnpress/custom/init.php:228
+#: learnpress_thimpress/custom/learnpress-functions.php:436
+msgid "Rating"
+msgstr ""
+
+#: learnpress/custom/init.php:249
+#: learnpress_thimpress/custom/learnpress-functions.php:457
+#: templates/comments.php:86
+msgid "Comment"
+msgstr ""
+
+#: learnpress/custom/init.php:256
+#: learnpress_thimpress/custom/learnpress-functions.php:463
+msgid "Submit Review"
+msgstr ""
+
+#: learnpress/custom/search-loop-items.php:11
+#: learnpress/custom/single-course-header-meta.php:27
+#: sensei/custom/search-loop-items.php:12
+#: sensei/custom/single-course-header-meta.php:27
+msgid "by"
+msgstr ""
+
+#: learnpress/custom/search-loop-items.php:22
+#: learnpress/custom/single-course-header-meta.php:39
+#: sensei/custom/search-loop-items.php:21 sensei/custom/similar-courses.php:60
+#: sensei/custom/single-course-header-meta.php:38
+#: templates/searchform-courses-big.php:35
+msgid "Free"
+msgstr ""
+
+#: learnpress/custom/single-course-header-meta.php:35
+#: sensei/custom/search-loop-table.php:7
+#: sensei/custom/single-course-header-meta.php:35
+msgid "Price"
+msgstr ""
+
+#: learnpress/custom/single-course-header-meta.php:48
+msgid "weeks"
+msgstr ""
+
+#: learnpress/custom/single-course-header-meta.php:56
+#: learnpress_thimpress/course/students.php:10
+#: learnpress_thimpress/custom/learnpress-functions.php:853
+#: sensei/custom/single-course-header-meta.php:65
+msgid "Students"
+msgstr ""
+
+#: learnpress_thimpress/addons/course-wishlist/button.php:18
+#: learnpress_thimpress/custom/learnpress-functions.php:896
+msgid "Wishlist"
+msgstr ""
+
+#: learnpress_thimpress/addons/course-wishlist/user-wishlist.php:4
+msgid "Favorite courses"
+msgstr ""
+
+#: learnpress_thimpress/addons/course-wishlist/user-wishlist.php:19
+msgid "No courses in your wishlist!"
+msgstr ""
+
+#: learnpress_thimpress/addons/course-wishlist/wishlist-content.php:9
+#: learnpress_thimpress/archive-course-content.php:39
+#: learnpress_thimpress/course/thumbnail.php:25
+#: learnpress_thimpress/custom/learnpress-functions.php:747
+#: learnpress_thimpress/profile/user-courses/enrolled-course.php:8
+#: learnpress_thimpress/profile/user-courses/own-course.php:8
+#: learnpress_thimpress/profile/user-courses/passed-course.php:8
+msgid "Read More"
+msgstr ""
+
+#: learnpress_thimpress/archive-course.php:18
+msgid "There are no available courses!"
+msgstr ""
+
+#: learnpress_thimpress/archive-course.php:21
+msgid "Showing only one result"
+msgstr ""
+
+#: learnpress_thimpress/archive-course.php:31
+msgid "Showing last course of %s results"
+msgstr ""
+
+#: learnpress_thimpress/archive-course.php:36
+msgid "Showing %s-%s of %s results"
+msgstr ""
+
+#: learnpress_thimpress/archive-course.php:57
+msgid "Search the course"
+msgstr ""
+
+#: learnpress_thimpress/course/categories.php:19
+msgid "Categories"
+msgstr ""
+
+#: learnpress_thimpress/course/course-result.php:12
+#: learnpress_thimpress/quiz/percentage.php:11
+msgid "You have passed this course with %.2f%% of total"
+msgstr ""
+
+#: learnpress_thimpress/course/course-result.php:15
+#: learnpress_thimpress/quiz/percentage.php:14
+msgid ""
+"Sorry, you have not passed this course. This course required you pass "
+"%.2f%% but your result is only %.2f%%"
+msgstr ""
+
+#: learnpress_thimpress/course/curriculum.php:27
+msgid "Curriculum is empty"
+msgstr ""
+
+#: learnpress_thimpress/course/enroll-button.php:15 sensei/single-course.php:30
+#: sensei/single-course.php:33 sensei/single-course.php:36
+msgid "Take this course"
+msgstr ""
+
+#: learnpress_thimpress/course/enroll-button.php:15
+msgid "Processing"
+msgstr ""
+
+#: learnpress_thimpress/course/instructor.php:13
+msgid "Teacher"
+msgstr ""
+
+#: learnpress_thimpress/course/loop-curriculum-lesson.php:11
+msgid "Lecture"
+msgstr ""
+
+#: learnpress_thimpress/course/loop-curriculum-lesson.php:22
+msgid "Preview"
+msgstr ""
+
+#: learnpress_thimpress/course/loop-curriculum-lesson.php:27
+#: learnpress_thimpress/course/loop-curriculum-quiz.php:20
+msgid "Completed"
+msgstr ""
+
+#: learnpress_thimpress/course/loop-curriculum-lesson.php:33
+#: learnpress_thimpress/course/loop-curriculum-quiz.php:25
+msgid "Locked"
+msgstr ""
+
+#: learnpress_thimpress/course/loop-curriculum-quiz.php:11
+#: learnpress_thimpress/custom/learnpress-functions.php:663
+msgid "Quiz"
+msgstr ""
+
+#: learnpress_thimpress/course/loop-curriculum-quiz.php:28
+msgid "questions"
+msgstr ""
+
+#: learnpress_thimpress/course/payment-form.php:31
+msgid "Check out"
+msgstr ""
+
+#: learnpress_thimpress/course_content-landing_page.php:19
+#: learnpress_thimpress/course_content-landing_page.php:79
+#: learnpress_thimpress/course_content-learning_page.php:18
+msgid "Description"
+msgstr ""
+
+#: learnpress_thimpress/course_content-landing_page.php:25
+#: learnpress_thimpress/course_content-landing_page.php:82
+#: learnpress_thimpress/course_content-learning_page.php:24
+msgid "Curriculum"
+msgstr ""
+
+#: learnpress_thimpress/course_content-landing_page.php:31
+msgid "Instructor"
+msgstr ""
+
+#: learnpress_thimpress/course_content-landing_page.php:38
+#: learnpress_thimpress/custom/learnpress-functions.php:508
+msgid "Review"
+msgstr ""
+
+#: learnpress_thimpress/course_content-landing_page.php:85
+#: learnpress_thimpress/course_content-learning_page.php:30
+msgid "Instructors"
+msgstr ""
+
+#: learnpress_thimpress/course_content.php:31
+msgid "Enrolled"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:201
+msgid "No course found"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:220
+msgid "LearnPress Profile"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:226
+msgid "Major"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:234
+msgid "Facebook Account"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:242
+msgid "Twitter Account"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:250
+msgid "Google Plus Account"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:258
+msgid "LinkedIn Plus Account"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:266
+msgid "Youtube Account"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:396
+msgid "%s stars"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:512
+msgid "(%1$s review)"
+msgid_plural "(%1$s reviews)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:512
+msgid "(0 review)"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Home"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:618
+#: learnpress_thimpress/custom/learnpress-functions.php:631
+#: learnpress_thimpress/custom/learnpress-functions.php:637
+#: learnpress_thimpress/custom/learnpress-functions.php:642
+msgid "All courses"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:640
+msgid "Search results for:"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:656
+msgid "All Courses"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:682
+msgid "h"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:685
+msgid "m"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:734
+msgid "You May Like"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:802
+msgid "Skill Level"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:805
+msgid "A possible level with this course"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:806
+msgid "All level"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:809
+#: learnpress_thimpress/custom/learnpress-functions.php:848
+msgid "Language"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:812
+msgid "Language's used for studying"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:813
+msgid "English"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:829
+msgid "Course Features"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:833
+msgid "Lectures"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:838
+msgid "Quizzes"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:843
+msgid "Skill level"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:859
+msgid "Assessments"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:860
+#: learnpress_thimpress/custom/learnpress-functions.php:1153
+msgid "Yes"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:860
+msgid "Self"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:881 lib/init.php:127
+msgid "Courses"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:886
+msgid "Quiz Results"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:904
+msgid "This user is not available!"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:946
+msgid "Hint"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:981
+#: learnpress_thimpress/quiz/time-counter.php:17
+msgid "Question"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:991
+msgid "You have completed this lesson."
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:995
+msgid "Complete Lesson"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:1055
+msgid "Connect"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:1057
+msgid "Forum"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:1152
+msgid "Certificate"
+msgstr ""
+
+#: learnpress_thimpress/custom/learnpress-functions.php:1153
+msgid "No"
+msgstr ""
+
+#: learnpress_thimpress/global/become-teacher-form.php:12
+msgid "Register to become a teacher"
+msgstr ""
+
+#: learnpress_thimpress/global/become-teacher-form.php:14
+msgid "You have to <a href=\"%s\">login</a> to fill out this form"
+msgstr ""
+
+#: learnpress_thimpress/profile/quiz-content.php:12
+#: learnpress_thimpress/quiz/result.php:13
+msgid "Correct"
+msgstr ""
+
+#: learnpress_thimpress/profile/quiz-content.php:16
+#: learnpress_thimpress/quiz/result.php:17
+msgid "Incorrect"
+msgstr ""
+
+#: learnpress_thimpress/profile/quiz-content.php:20
+#: learnpress_thimpress/quiz/result.php:21
+msgid "Skipped"
+msgstr ""
+
+#: learnpress_thimpress/profile/quiz-content.php:24
+#: learnpress_thimpress/quiz/result.php:25
+msgid "Points"
+msgstr ""
+
+#: learnpress_thimpress/profile/user-courses/own-course.php:19
+msgid " students passed"
+msgstr ""
+
+#: learnpress_thimpress/profile/user-courses/own-course.php:21
+msgid " student passed"
+msgstr ""
+
+#: learnpress_thimpress/profile/user-courses.php:4
+msgid "Learning courses"
+msgstr ""
+
+#: learnpress_thimpress/profile/user-courses.php:15
+#: learnpress_thimpress/profile/user-quizzes.php:27
+msgid "You have not taken any courses yet!"
+msgstr ""
+
+#: learnpress_thimpress/profile/user-courses.php:22
+msgid "Finished courses"
+msgstr ""
+
+#: learnpress_thimpress/profile/user-courses.php:34
+msgid "You have not finished any courses yet!"
+msgstr ""
+
+#: learnpress_thimpress/profile/user-courses.php:43
+msgid "Own courses"
+msgstr ""
+
+#: learnpress_thimpress/profile/user-courses.php:54
+msgid "You don't have got any published courses yet!"
+msgstr ""
+
+#: learnpress_thimpress/profile/user-quizzes.php:22
+msgid "You have not finished any quizzes yet!"
+msgstr ""
+
+#: learnpress_thimpress/quiz/nav.php:12
+msgid "Back"
+msgstr ""
+
+#: learnpress_thimpress/quiz/nav.php:13
+msgid "Next"
+msgstr ""
+
+#: learnpress_thimpress/quiz/no-preview-message.php:1
+msgid "Sorry! You have not permission to view this quiz!"
+msgstr ""
+
+#: learnpress_thimpress/quiz/no-question.php:2
+msgid "No question in this quiz!"
+msgstr ""
+
+#: learnpress_thimpress/quiz/result.php:9
+msgid "Your result"
+msgstr ""
+
+#: learnpress_thimpress/quiz/result.php:48
+msgid "Review your answers"
+msgstr ""
+
+#: learnpress_thimpress/quiz/time-counter.php:17
+msgid "Questions"
+msgstr ""
+
+#: learnpress_thimpress/quiz/time-counter.php:22
+msgid "Time"
+msgstr ""
+
+#: learnpress_thimpress/quiz/time-counter.php:24
+msgid "(h:m:s)"
+msgstr ""
+
+#: lib/activate-plugins.php:95
+msgid ""
+"If you are not able to complete plugin installation process due to server "
+"issues please install the plugins manually. All required plugins are "
+"located in \"extensions\" folder in your main download from Themeforest."
+msgstr ""
+
+#: lib/activate-plugins.php:96
+msgid ""
+"After you finish installing plugins go back to %s page to complete the "
+"installation."
+msgstr ""
+
+#: lib/activate-plugins.php:96 lib/activation.php:13
+msgid "Theme Activation"
+msgstr ""
+
+#: lib/activation.php:134
+msgid "%s Theme Activation"
+msgstr ""
+
+#: lib/activation.php:136
+msgid "These videos cover installation and update process."
+msgstr ""
+
+#: lib/activation.php:144
+msgid "Update Instructions"
+msgstr ""
+
+#: lib/activation.php:146
+msgid "If you are updating the theme, please watch the video on the right."
+msgstr ""
+
+#: lib/activation.php:150
+msgid "Installation Steps"
+msgstr ""
+
+#: lib/activation.php:151
+msgid ""
+"These settings are optional and should usually be used only on a fresh "
+"installation."
+msgstr ""
+
+#: lib/activation.php:154 lib/activation.php:157
+msgid "Install required plugins"
+msgstr ""
+
+#: lib/activation.php:155
+msgid ""
+"First, enable required plugins. After you finish plugin installation return "
+"to this page to complete the installation process."
+msgstr ""
+
+#: lib/activation.php:160
+msgid ""
+"Please note that Sensei plugin is not included in the theme and needs to be "
+"purchased separately."
+msgstr ""
+
+#: lib/activation.php:162
+msgid ""
+"If you choose to use it you need to install it before you proceed to "
+"importing demo content."
+msgstr ""
+
+#: lib/activation.php:165
+msgid "Install plugin"
+msgstr ""
+
+#: lib/activation.php:169
+msgid "Import demo content"
+msgstr ""
+
+#: lib/activation.php:170
+msgid "Proceed only after all plugins are installed"
+msgstr ""
+
+#: lib/activation.php:171
+msgid "Go to Wordpress Importer"
+msgstr ""
+
+#: lib/activation.php:174
+msgid "Import Layer Slider demo sliders"
+msgstr ""
+
+#: lib/activation.php:176
+msgid "Go to Layer Slider Importer"
+msgstr ""
+
+#: lib/activation.php:178
+msgid ""
+"In order to import demo sliders you need to install and activate Layer "
+"Slider plugin"
+msgstr ""
+
+#: lib/activation.php:182
+msgid "Import Icons"
+msgstr ""
+
+#: lib/activation.php:183
+msgid "Go to Ultimate VC Addons Icon Manager"
+msgstr ""
+
+#: lib/activation.php:186
+msgid "Save Menus"
+msgstr ""
+
+#: lib/activation.php:187
+msgid "Go to Wordpress Menus"
+msgstr ""
+
+#: lib/activation.php:190
+msgid "Select Front and Posts page"
+msgstr ""
+
+#: lib/activation.php:191
+msgid "Go to Wordpress Reading Settings"
+msgstr ""
+
+#: lib/activation.php:194
+msgid "Membership - Anyone Can Register? (Optional)"
+msgstr ""
+
+#: lib/activation.php:195
+msgid "You need to set this if you want to allow users to register on your site."
+msgstr ""
+
+#: lib/activation.php:197
+msgid "Go to General Settings"
+msgstr ""
+
+#: lib/activation.php:210
+msgid "Import Theme Options"
+msgstr ""
+
+#: lib/activation.php:226
+msgid "Sidebar and Footer widgets"
+msgstr ""
+
+#: lib/activation.php:241
+msgid "Sensei Course Archive Page"
+msgstr ""
+
+#: lib/activation.php:249
+msgid "Sensei My Courses Page"
+msgstr ""
+
+#: lib/activation.php:263
+msgid "Important!"
+msgstr ""
+
+#: lib/activation.php:266
+msgid "WordPress 3.1 or higher"
+msgstr ""
+
+#: lib/activation.php:267
+msgid "PHP5.4 or higher"
+msgstr ""
+
+#: lib/activation.php:268
+msgid "and mysql 5 or higher"
+msgstr ""
+
+#: lib/activation.php:271
+msgid ""
+"Many issues that you may run into such as: white screen, demo content fails "
+"when importing and other similar issues are all related to low PHP "
+"configuration limits. The solution is to increase the PHP limits. You can "
+"do this on your own, or contact your web host and ask them to increase "
+"those limits to a minimum as follows:"
+msgstr ""
+
+#: lib/activation.php:275
+msgid "max_execution_time 180"
+msgstr ""
+
+#: lib/activation.php:276
+msgid "memory_limit 128M"
+msgstr ""
+
+#: lib/activation.php:277
+msgid "post_max_size 32M"
+msgstr ""
+
+#: lib/activation.php:278
+msgid "upload_max_filesize 32M"
+msgstr ""
+
+#: lib/activation.php:280
+msgid ""
+"We have tested it with Mac, Windows and Linux. Below is a list of items you "
+"should ensure your host can comply with:"
+msgstr ""
+
+#: lib/activation.php:282
+msgid ""
+"Check to ensure that your web host has the minimum requirements to run "
+"WordPress."
+msgstr ""
+
+#: lib/activation.php:283
+msgid "Always make sure they are running the latest version of WordPress."
+msgstr ""
+
+#: lib/activation.php:285
+msgid "Always create secure passwords for FTP and Database."
+msgstr ""
+
+#: lib/activation.php:290
+msgid ""
+"Visual Composer, Ultimate Addons for Visual Composer and Layer Slider "
+"plugins are included with the theme but you do not get purchase codes for "
+"these plugins."
+msgstr ""
+
+#: lib/activation.php:293
+msgid ""
+"That means that automatic updates for the plugins will not be available to "
+"you unless you buy a regular license for the plugin. We do not recommend "
+"that you buy regular licenses for the plugins because they will be updated "
+"with theme updates."
+msgstr ""
+
+#: lib/activation.php:299
+msgid "Check System Status page"
+msgstr ""
+
+#: lib/extras.php:45
+msgid "View your shopping cart"
+msgstr ""
+
+#: lib/extras.php:46
+msgid "Start shopping"
+msgstr ""
+
+#: lib/extras.php:51
+msgid "%d"
+msgid_plural "%d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/extras.php:110
+msgid "Sticky"
+msgstr ""
+
+#: lib/extras.php:119
+msgid "Posted by"
+msgstr ""
+
+#: lib/extras.php:120
+msgid "View all posts by %s"
+msgstr ""
+
+#: lib/extras.php:129
+msgid " Comments"
+msgstr ""
+
+#: lib/extras.php:131
+msgid "1 Comment"
+msgstr ""
+
+#: lib/extras.php:139 lib/extras.php:145
+#. Translators: used between list items, there is a space after the comma.
+msgid ", "
+msgstr ""
+
+#: lib/extras.php:171
+msgid "Permalink to %s"
+msgstr ""
+
+#: lib/init.php:52
+msgid "Primary Navigation"
+msgstr ""
+
+#: lib/init.php:55
+msgid "Secondary Navigation"
+msgstr ""
+
+#: lib/init.php:58
+msgid "Top Navigation"
+msgstr ""
+
+#: lib/init.php:61
+msgid "One Page Navigation 1"
+msgstr ""
+
+#: lib/init.php:64
+msgid "One Page Navigation 2"
+msgstr ""
+
+#: lib/init.php:67
+msgid "One Page Navigation 3"
+msgstr ""
+
+#: lib/init.php:109
+msgid "Primary"
+msgstr ""
+
+#: lib/init.php:118 lib/redux/options.php:2186
+msgid "Footer"
+msgstr ""
+
+#: lib/metaboxes.php:21
+msgid "Course Duration"
+msgstr ""
+
+#: lib/metaboxes.php:27
+msgid "Sidebar Text"
+msgstr ""
+
+#: lib/metaboxes.php:44
+msgid "Job Title"
+msgstr ""
+
+#: lib/metaboxes.php:45 lib/metaboxes.php:51 lib/metaboxes.php:57
+msgid "This will be printed in Teacher Widget"
+msgstr ""
+
+#: lib/metaboxes.php:50
+msgid "Summary"
+msgstr ""
+
+#: lib/metaboxes.php:56
+msgid "Social Icon Shortcodes"
+msgstr ""
+
+#: lib/metaboxes.php:82
+msgid "Use One Page Menu"
+msgstr ""
+
+#: lib/metaboxes.php:83
+msgid ""
+"When using one page menu functionality you need to add an extra class on "
+"each vc row you want to link to a menu item. Also you need to create a menu "
+"in Appearance/Menus and create custom links where each link url has the "
+"same name as the row class prefixed with # sign"
+msgstr ""
+
+#: lib/metaboxes.php:89
+msgid "Select One Page Menu Location"
+msgstr ""
+
+#: lib/metaboxes.php:90
+msgid "Used only if Use One Page Menu is checked."
+msgstr ""
+
+#: lib/metaboxes.php:97
+msgid "Custom Logo"
+msgstr ""
+
+#: lib/metaboxes.php:98
+msgid ""
+"Used it to override the logo from theme options. This works well when using "
+"Transparent Header Template."
+msgstr ""
+
+#: lib/redux/options.php:18
+msgid "General Settings"
+msgstr ""
+
+#: lib/redux/options.php:25
+msgid "Tracking Code"
+msgstr ""
+
+#: lib/redux/options.php:26
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added into the head of your theme."
+msgstr ""
+
+#: lib/redux/options.php:34
+msgid "JS Code"
+msgstr ""
+
+#: lib/redux/options.php:35
+msgid "Paste your JS code here."
+msgstr ""
+
+#: lib/redux/options.php:43
+msgid "Custom Thumbnail Sizes"
+msgstr ""
+
+#: lib/redux/options.php:44
+msgid "Pipe separated list of custom thumbnail size names and sizes."
+msgstr ""
+
+#: lib/redux/options.php:45
+msgid ""
+"Please use this format: "
+"<br><strong>custom-thumbnail-size:500x500|another-custom-thumbnail-size:320"
+"x150</strong>. <br>No spaces allowed. Thumnail Sizes you register here will "
+"only be applied to any new image from now on. If you wish to apply them on "
+"any of the old images we recomend using <a "
+"href=\"http://wordpress.org/plugins/regenerate-thumbnails/\">Regenerate "
+"Thumbnails Plugin</a>"
+msgstr ""
+
+#: lib/redux/options.php:62
+msgid "Styling"
+msgstr ""
+
+#: lib/redux/options.php:67
+msgid "Global Accent Color"
+msgstr ""
+
+#: lib/redux/options.php:68
+msgid "This color will be used accross the site."
+msgstr ""
+
+#: lib/redux/options.php:94
+msgid "Custom CSS Code"
+msgstr ""
+
+#: lib/redux/options.php:95
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: lib/redux/options.php:113
+msgid "Body"
+msgstr ""
+
+#: lib/redux/options.php:120
+msgid "Container Width"
+msgstr ""
+
+#: lib/redux/options.php:133
+msgid "Boxed Outer Container Width"
+msgstr ""
+
+#: lib/redux/options.php:134
+msgid "This is only applicable when \"Boxed\" page template is used."
+msgstr ""
+
+#: lib/redux/options.php:147 lib/redux/options.php:452
+#: lib/redux/options.php:586 lib/redux/options.php:797
+#: lib/redux/options.php:1317 lib/redux/options.php:1583
+#: lib/redux/options.php:2193 lib/redux/options.php:2430
+msgid "Background"
+msgstr ""
+
+#: lib/redux/options.php:152 lib/redux/options.php:596
+#: lib/redux/options.php:807 lib/redux/options.php:1418
+#: lib/redux/options.php:2202 lib/redux/options.php:2486
+msgid "Font"
+msgstr ""
+
+#: lib/redux/options.php:153
+msgid "Specify the body font properties."
+msgstr ""
+
+#: lib/redux/options.php:168 lib/redux/options.php:649
+#: lib/redux/options.php:826 lib/redux/options.php:2246
+#: lib/redux/options.php:2472
+msgid "Link Color"
+msgstr ""
+
+#: lib/redux/options.php:179 lib/redux/options.php:1629
+msgid "HR"
+msgstr ""
+
+#: lib/redux/options.php:180
+msgid "Style body HR element"
+msgstr ""
+
+#: lib/redux/options.php:202 lib/redux/options.php:1645
+msgid "HR Width"
+msgstr ""
+
+#: lib/redux/options.php:231 lib/redux/options.php:1660
+msgid "HR Margin"
+msgstr ""
+
+#: lib/redux/options.php:247 lib/redux/options.php:1593
+msgid "Padding"
+msgstr ""
+
+#: lib/redux/options.php:248
+msgid ""
+"This is where you select a padding for all layout elements. For widgets "
+"compiled from a page you need to set the padding on each widget."
+msgstr ""
+
+#: lib/redux/options.php:266
+msgid "Headings"
+msgstr ""
+
+#: lib/redux/options.php:271
+msgid "H1"
+msgstr ""
+
+#: lib/redux/options.php:287
+msgid "H1 Margin"
+msgstr ""
+
+#: lib/redux/options.php:299
+msgid "H2"
+msgstr ""
+
+#: lib/redux/options.php:315
+msgid "H2 Margin"
+msgstr ""
+
+#: lib/redux/options.php:327
+msgid "H3"
+msgstr ""
+
+#: lib/redux/options.php:343
+msgid "H3 Margin"
+msgstr ""
+
+#: lib/redux/options.php:355
+msgid "H4"
+msgstr ""
+
+#: lib/redux/options.php:371
+msgid "H4 Margin"
+msgstr ""
+
+#: lib/redux/options.php:383
+msgid "H5"
+msgstr ""
+
+#: lib/redux/options.php:399
+msgid "H5 Margin"
+msgstr ""
+
+#: lib/redux/options.php:411
+msgid "H6"
+msgstr ""
+
+#: lib/redux/options.php:427
+msgid "H6 Margin"
+msgstr ""
+
+#: lib/redux/options.php:445
+msgid "Header"
+msgstr ""
+
+#: lib/redux/options.php:453
+msgid "Pick a background color for the header"
+msgstr ""
+
+#: lib/redux/options.php:461 lib/redux/options.php:1139
+msgid "Logo"
+msgstr ""
+
+#: lib/redux/options.php:464
+msgid "Upload logo"
+msgstr ""
+
+#: lib/redux/options.php:470
+msgid "Sticky Menu Logo"
+msgstr ""
+
+#: lib/redux/options.php:473
+msgid "If not set Logo will be used in sticky menu."
+msgstr ""
+
+#: lib/redux/options.php:479
+msgid "Logo Location"
+msgstr ""
+
+#: lib/redux/options.php:489
+msgid "Logo Width/ Menu Width"
+msgstr ""
+
+#: lib/redux/options.php:490
+msgid "Drag the slider to change logo width."
+msgstr ""
+
+#: lib/redux/options.php:491
+msgid ""
+"The grid has 12 steps. If Logo location is set to Main Menu, the menu will "
+"take what is left up to 12. If logo is set to 12 menu will also take up 12 "
+"and will be put bellow it."
+msgstr ""
+
+#: lib/redux/options.php:509
+msgid "Logo Margin Top"
+msgstr ""
+
+#: lib/redux/options.php:518
+msgid "Logo Alignment"
+msgstr ""
+
+#: lib/redux/options.php:529 lib/redux/options.php:635
+#: lib/redux/options.php:2235
+msgid "Menu Alignment"
+msgstr ""
+
+#: lib/redux/options.php:540
+msgid "Override Header Padding"
+msgstr ""
+
+#: lib/redux/options.php:552
+msgid "Header Padding"
+msgstr ""
+
+#: lib/redux/options.php:571
+msgid "Top Bar"
+msgstr ""
+
+#: lib/redux/options.php:576
+msgid "Use Top Bar"
+msgstr ""
+
+#: lib/redux/options.php:587 lib/redux/options.php:798
+msgid "Pick a background color for the top bar"
+msgstr ""
+
+#: lib/redux/options.php:597 lib/redux/options.php:808
+msgid "Specify font properties."
+msgstr ""
+
+#: lib/redux/options.php:615 lib/redux/options.php:2218
+msgid "Menu Font"
+msgstr ""
+
+#: lib/redux/options.php:616
+msgid "Specify the top bar menu font properties."
+msgstr ""
+
+#: lib/redux/options.php:663 lib/redux/options.php:840
+#: lib/redux/options.php:2257
+msgid "Text Block"
+msgstr ""
+
+#: lib/redux/options.php:676 lib/redux/options.php:853
+#: lib/redux/options.php:2267
+msgid "Text Block Alignment"
+msgstr ""
+
+#: lib/redux/options.php:707 lib/redux/options.php:2292
+msgid "Menu Width"
+msgstr ""
+
+#: lib/redux/options.php:708 lib/redux/options.php:1606
+#: lib/redux/options.php:1618
+msgid "Drag the slider to change menu width grid steps."
+msgstr ""
+
+#: lib/redux/options.php:709 lib/redux/options.php:724
+#: lib/redux/options.php:1607 lib/redux/options.php:1619
+#: lib/redux/options.php:2502
+msgid "The grid has 12 steps."
+msgstr ""
+
+#: lib/redux/options.php:722 lib/redux/options.php:2303
+msgid "Text Width"
+msgstr ""
+
+#: lib/redux/options.php:723
+msgid "Drag the slider to change text width grid steps."
+msgstr ""
+
+#: lib/redux/options.php:737 lib/redux/options.php:867
+#: lib/redux/options.php:1360
+msgid "Override Top Bar Padding"
+msgstr ""
+
+#: lib/redux/options.php:752 lib/redux/options.php:882
+msgid "Top Bar Padding"
+msgstr ""
+
+#: lib/redux/options.php:773
+msgid "Top Bar Additional"
+msgstr ""
+
+#: lib/redux/options.php:778
+msgid "Use Top Bar Additional"
+msgstr ""
+
+#: lib/redux/options.php:787
+msgid "Show on Mobile Devices"
+msgstr ""
+
+#: lib/redux/options.php:899
+msgid "Border"
+msgstr ""
+
+#: lib/redux/options.php:919
+msgid "Main Menu"
+msgstr ""
+
+#: lib/redux/options.php:924
+msgid "Top Level Items Typography"
+msgstr ""
+
+#: lib/redux/options.php:943
+msgid "Subitems Typography"
+msgstr ""
+
+#: lib/redux/options.php:962
+msgid "Menu Item Link Color"
+msgstr ""
+
+#: lib/redux/options.php:974
+msgid "Menu Item Hover Background"
+msgstr ""
+
+#: lib/redux/options.php:975 lib/redux/options.php:1015
+msgid "Pick a background color for the menu item on hover."
+msgstr ""
+
+#: lib/redux/options.php:984
+msgid "Current Menu Item Background"
+msgstr ""
+
+#: lib/redux/options.php:985
+msgid "Pick a background color for the current menu item."
+msgstr ""
+
+#: lib/redux/options.php:990
+msgid "Current Menu Item Link Color"
+msgstr ""
+
+#: lib/redux/options.php:1005
+msgid "Submenu Menu Item Background"
+msgstr ""
+
+#: lib/redux/options.php:1014
+msgid "Subenu Item Hover Background"
+msgstr ""
+
+#: lib/redux/options.php:1020
+msgid "Submenu Item Link Color"
+msgstr ""
+
+#: lib/redux/options.php:1035
+msgid "Padding Top"
+msgstr ""
+
+#: lib/redux/options.php:1036 lib/redux/options.php:1071
+msgid "Use it to better vertical align the menu"
+msgstr ""
+
+#: lib/redux/options.php:1048
+msgid "Enable Sticky Menu"
+msgstr ""
+
+#: lib/redux/options.php:1054
+msgid "Sticky Menu Background"
+msgstr ""
+
+#: lib/redux/options.php:1070
+msgid "Sticky Menu Padding"
+msgstr ""
+
+#: lib/redux/options.php:1086
+msgid "Sticky Menu Border"
+msgstr ""
+
+#: lib/redux/options.php:1102
+msgid "Initial Waypoint Scroll Compensation"
+msgstr ""
+
+#: lib/redux/options.php:1103
+msgid "Enter number only."
+msgstr ""
+
+#: lib/redux/options.php:1114
+msgid "Responsive Menu"
+msgstr ""
+
+#: lib/redux/options.php:1120
+msgid "Use Responsive Menu?"
+msgstr ""
+
+#: lib/redux/options.php:1126
+msgid "Display bellow"
+msgstr ""
+
+#: lib/redux/options.php:1127
+msgid "Set the width of the screen in px bellow which the menu is shown."
+msgstr ""
+
+#: lib/redux/options.php:1142
+msgid "Set logo image"
+msgstr ""
+
+#: lib/redux/options.php:1151
+msgid "Logo Dimensions (Width/Height)"
+msgstr ""
+
+#: lib/redux/options.php:1161
+msgid "Display Toggle Color"
+msgstr ""
+
+#: lib/redux/options.php:1171
+msgid "Display Toggle Hover Color"
+msgstr ""
+
+#: lib/redux/options.php:1180
+msgid "Display Toggle Image"
+msgstr ""
+
+#: lib/redux/options.php:1183
+msgid "Set the image to replace default 3 lines for menu toggle button."
+msgstr ""
+
+#: lib/redux/options.php:1192
+msgid "Display Toggle Image Dimensions (Width/Height)"
+msgstr ""
+
+#: lib/redux/options.php:1204 lib/redux/options.php:1470
+#: lib/redux/options.php:1676
+msgid "Embellishments"
+msgstr ""
+
+#: lib/redux/options.php:1209 lib/redux/options.php:1399
+#: lib/redux/options.php:1475 lib/redux/options.php:1681
+msgid "Enable"
+msgstr ""
+
+#: lib/redux/options.php:1216 lib/redux/options.php:1482
+#: lib/redux/options.php:1688
+msgid "Embellishment Top Background"
+msgstr ""
+
+#: lib/redux/options.php:1225 lib/redux/options.php:1491
+#: lib/redux/options.php:1697
+msgid "Embellishment Top Container Height"
+msgstr ""
+
+#: lib/redux/options.php:1243 lib/redux/options.php:1509
+#: lib/redux/options.php:1715
+msgid "Embellishment Top Container Margin"
+msgstr ""
+
+#: lib/redux/options.php:1244 lib/redux/options.php:1510
+#: lib/redux/options.php:1716
+msgid "Use negative top margin to pull it up."
+msgstr ""
+
+#: lib/redux/options.php:1260 lib/redux/options.php:1526
+#: lib/redux/options.php:1732
+msgid "Embellishment Bottom Background"
+msgstr ""
+
+#: lib/redux/options.php:1269 lib/redux/options.php:1535
+#: lib/redux/options.php:1741
+msgid "Embellishment Bottom Container Height"
+msgstr ""
+
+#: lib/redux/options.php:1287 lib/redux/options.php:1553
+#: lib/redux/options.php:1759
+msgid "Embellishment Bottom Container Margin"
+msgstr ""
+
+#: lib/redux/options.php:1288 lib/redux/options.php:1554
+msgid "Use negative bottom margin to pull it down."
+msgstr ""
+
+#: lib/redux/options.php:1310
+msgid "Page Title"
+msgstr ""
+
+#: lib/redux/options.php:1318
+msgid "Pick a background color for the page title."
+msgstr ""
+
+#: lib/redux/options.php:1326
+msgid "Page Title Font"
+msgstr ""
+
+#: lib/redux/options.php:1327
+msgid "Specify the page title font properties."
+msgstr ""
+
+#: lib/redux/options.php:1347
+msgid "Page Title Margin"
+msgstr ""
+
+#: lib/redux/options.php:1375
+msgid "Page Title Wrapper Padding"
+msgstr ""
+
+#: lib/redux/options.php:1394
+msgid "Breadcrumbs"
+msgstr ""
+
+#: lib/redux/options.php:1405
+msgid "Position"
+msgstr ""
+
+#: lib/redux/options.php:1439
+msgid "Links Color"
+msgstr ""
+
+#: lib/redux/options.php:1453
+msgid "Alignment"
+msgstr ""
+
+#: lib/redux/options.php:1576
+msgid "Content"
+msgstr ""
+
+#: lib/redux/options.php:1584
+msgid "Pick a background color for the content"
+msgstr ""
+
+#: lib/redux/options.php:1605
+msgid "Content Width"
+msgstr ""
+
+#: lib/redux/options.php:1617
+msgid "Sidebar Width"
+msgstr ""
+
+#: lib/redux/options.php:1630
+msgid "Style content HR element"
+msgstr ""
+
+#: lib/redux/options.php:1760
+msgid "Use negative bottom margin to pull it up."
+msgstr ""
+
+#: lib/redux/options.php:1782
+msgid "Blog/Archive"
+msgstr ""
+
+#: lib/redux/options.php:1788
+msgid "Post Excerpt Length"
+msgstr ""
+
+#: lib/redux/options.php:1789
+msgid "This setting will be applied to any section using post excerpt"
+msgstr ""
+
+#: lib/redux/options.php:1799
+msgid "Blog/Archive Single"
+msgstr ""
+
+#: lib/redux/options.php:1805
+msgid "Is Boxed?"
+msgstr ""
+
+#: lib/redux/options.php:1813
+msgid "Sidebar on the Left?"
+msgstr ""
+
+#: lib/redux/options.php:1821
+msgid "Use Share This buttons?"
+msgstr ""
+
+#: lib/redux/options.php:1837
+msgid "Sensei"
+msgstr ""
+
+#: lib/redux/options.php:1843
+msgid "Show Participant Count?"
+msgstr ""
+
+#: lib/redux/options.php:1844
+msgid "This will be applied on all single course pages"
+msgstr ""
+
+#: lib/redux/options.php:1850
+msgid "Enable Header Image"
+msgstr ""
+
+#: lib/redux/options.php:1857
+msgid "Header Image"
+msgstr ""
+
+#: lib/redux/options.php:1869
+msgid "Header Image Height"
+msgstr ""
+
+#: lib/redux/options.php:1883
+msgid "Course"
+msgstr ""
+
+#: lib/redux/options.php:1889
+msgid "Course Header Background"
+msgstr ""
+
+#: lib/redux/options.php:1897
+msgid "Header Border Bottom"
+msgstr ""
+
+#: lib/redux/options.php:1912 lib/redux/options.php:1998
+msgid "Title Typography"
+msgstr ""
+
+#: lib/redux/options.php:1929
+msgid "Meta Data Text  Color"
+msgstr ""
+
+#: lib/redux/options.php:1941
+msgid "Course Meta HR"
+msgstr ""
+
+#: lib/redux/options.php:1961
+msgid "Module Title Background Color"
+msgstr ""
+
+#: lib/redux/options.php:1972
+msgid "Lesson Icon Color"
+msgstr ""
+
+#: lib/redux/options.php:1983
+msgid "Lesson Completed Background Color"
+msgstr ""
+
+#: lib/redux/options.php:1993
+msgid "Courses Carousel"
+msgstr ""
+
+#: lib/redux/options.php:2004 lib/redux/options.php:2027
+#: lib/redux/options.php:2051 lib/redux/options.php:2073
+msgid "Typography option with each property can be called individually."
+msgstr ""
+
+#: lib/redux/options.php:2017
+msgid "Meta Typography"
+msgstr ""
+
+#: lib/redux/options.php:2040
+msgid "Text Typography"
+msgstr ""
+
+#: lib/redux/options.php:2064
+msgid "Regular Price Typography"
+msgstr ""
+
+#: lib/redux/options.php:2080
+msgid "Border Color"
+msgstr ""
+
+#: lib/redux/options.php:2088
+msgid "Inner Wrapper Background Color"
+msgstr ""
+
+#: lib/redux/options.php:2101
+msgid "Price Wrapper Background Color"
+msgstr ""
+
+#: lib/redux/options.php:2114
+msgid "Ribbon Back Background Color"
+msgstr ""
+
+#: lib/redux/options.php:2121
+msgid "Rating Color"
+msgstr ""
+
+#: lib/redux/options.php:2138
+msgid "Courses Search"
+msgstr ""
+
+#: lib/redux/options.php:2143
+msgid "Select Courses Search Page"
+msgstr ""
+
+#: lib/redux/options.php:2156
+msgid "Search Page"
+msgstr ""
+
+#: lib/redux/options.php:2162
+msgid "Use Sidebar?"
+msgstr ""
+
+#: lib/redux/options.php:2170
+msgid "Items Per Page"
+msgstr ""
+
+#: lib/redux/options.php:2194
+msgid "Pick a background color for the footer."
+msgstr ""
+
+#: lib/redux/options.php:2203
+msgid "Specify the footer font properties."
+msgstr ""
+
+#: lib/redux/options.php:2219
+msgid "Specify the footer menu font properties."
+msgstr ""
+
+#: lib/redux/options.php:2293 lib/redux/options.php:2304
+#: lib/redux/options.php:2315
+msgid "Drag the slider to change width grid steps."
+msgstr ""
+
+#: lib/redux/options.php:2314
+msgid "Social Links Box Width"
+msgstr ""
+
+#: lib/redux/options.php:2325
+msgid "Social Links Block Alignment"
+msgstr ""
+
+#: lib/redux/options.php:2336
+msgid "Override Footer Bottom Padding"
+msgstr ""
+
+#: lib/redux/options.php:2348
+msgid "Footer Bottom Padding"
+msgstr ""
+
+#: lib/redux/options.php:2364
+msgid "Use Footer Bottom Separator"
+msgstr ""
+
+#: lib/redux/options.php:2365
+msgid "Enable the separator between Footer Widgets and Footer Bottom."
+msgstr ""
+
+#: lib/redux/options.php:2374
+msgid "Footer Bottom Separator"
+msgstr ""
+
+#: lib/redux/options.php:2395
+msgid "Footer Bottom Separator Padding"
+msgstr ""
+
+#: lib/redux/options.php:2410
+msgid "Social Links"
+msgstr ""
+
+#: lib/redux/options.php:2411
+msgid ""
+"Use this form: fa fa-twitter|http://google.com|20. First segment is icon "
+"name. The second is the link and the third is font size."
+msgstr ""
+
+#: lib/redux/options.php:2424
+msgid "Footer Widgets"
+msgstr ""
+
+#: lib/redux/options.php:2438
+msgid "Title Font"
+msgstr ""
+
+#: lib/redux/options.php:2439
+msgid "Specify the widget title font properties."
+msgstr ""
+
+#: lib/redux/options.php:2452
+msgid "Subtitle Font"
+msgstr ""
+
+#: lib/redux/options.php:2453
+msgid "Specify the widget link font properties."
+msgstr ""
+
+#: lib/redux/options.php:2487
+msgid "Specify the widget font properties."
+msgstr ""
+
+#: lib/redux/options.php:2500
+msgid "Footer Widget Width"
+msgstr ""
+
+#: lib/redux/options.php:2501
+msgid "Drag the slider to change widget width grid steps."
+msgstr ""
+
+#: lib/redux/options.php:2513
+msgid "Min Height"
+msgstr ""
+
+#: lib/redux/options.php:2525
+msgid "Override Footer Widget Padding"
+msgstr ""
+
+#: lib/redux/options.php:2537
+msgid "Footer Widget Padding"
+msgstr ""
+
+#: lib/redux/options.php:2559
+msgid "Misc"
+msgstr ""
+
+#: lib/redux/options.php:2567 lib/redux/options.php:2601
+msgid "Scroll to Top Button"
+msgstr ""
+
+#: lib/redux/options.php:2572
+msgid "Use Scroll to Top Button?"
+msgstr ""
+
+#: lib/redux/options.php:2580
+msgid "Scroll to Top Text"
+msgstr ""
+
+#: lib/redux/options.php:2589
+msgid "Override Scroll to Top Button?"
+msgstr ""
+
+#: lib/redux/options.php:2613
+msgid "Dimensions (Width/Height)"
+msgstr ""
+
+#: lib/redux/options.php:2629
+msgid "Text Direction"
+msgstr ""
+
+#: lib/redux/options.php:2634
+msgid "Enable RTL?"
+msgstr ""
+
+#: lib/redux/options.php:2647
+msgid "Other Settings"
+msgstr ""
+
+#: lib/redux/options.php:2653
+msgid ""
+"If you have made edits to the code and wish to see the original code click "
+"on the link bellow. If you wish to completely restore the original code "
+"either copy this reference code to the editor bellow or reset the section."
+msgstr ""
+
+#: lib/redux/options.php:2663
+msgid "Settings"
+msgstr ""
+
+#: lib/redux/redux-settings.php:153
+msgid ""
+"It looks like your upload folder isn't writable, so PHP couldn't make any "
+"changes (CHMOD)."
+msgstr ""
+
+#: lib/redux/redux-settings.php:153
+msgid "Cannot write to file"
+msgstr ""
+
+#: lib/redux/redux-settings.php:178 lib/redux/redux-settings.php:179
+msgid "Theme Options"
+msgstr ""
+
+#: lib/titles.php:13
+msgid "Latest Posts"
+msgstr ""
+
+#: lib/titles.php:22
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: lib/titles.php:24
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: lib/titles.php:26
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: lib/titles.php:29
+msgid "Author: %s"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Search Courses"
+msgstr ""
+
+#: lib/titles.php:36
+msgid "Search Results for %s"
+msgstr ""
+
+#: lib/titles.php:40
+msgid "Not Found"
+msgstr ""
+
+#: sensei/custom/init.php:82
+msgid "Sign In/Sign Up"
+msgstr ""
+
+#: sensei/custom/init.php:146
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: sensei/custom/search-loop-items.php:13
+msgid "lessons"
+msgstr ""
+
+#: sensei/custom/search-loop-table.php:5
+msgid "Course Title"
+msgstr ""
+
+#: sensei/custom/search-loop-table.php:6 sensei/custom/similar-courses.php:76
+#: sensei/custom/single-course-header-meta.php:53
+msgid "Lessons"
+msgstr ""
+
+#: sensei/custom/search-loop-table.php:8
+msgid "Duration"
+msgstr ""
+
+#: templates/author-bio.php:14
+msgid "About %s"
+msgstr ""
+
+#: templates/author-bio.php:18
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: templates/comment.php:9
+msgid "%1$s"
+msgstr ""
+
+#: templates/comment.php:14
+msgid "(Edit)"
+msgstr ""
+
+#: templates/comment.php:19
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: templates/comments.php:8
+msgid "One Response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Responses to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/comments.php:18
+msgid "&larr; Older comments"
+msgstr ""
+
+#: templates/comments.php:21
+msgid "Newer comments &rarr;"
+msgstr ""
+
+#: templates/comments.php:29 templates/comments.php:38
+msgid "Comments are closed."
+msgstr ""
+
+#: templates/comments.php:45
+msgid "Leave a Reply"
+msgstr ""
+
+#: templates/comments.php:45
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: templates/comments.php:49
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: templates/comments.php:54
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr ""
+
+#: templates/comments.php:56
+msgid "Log out of this account"
+msgstr ""
+
+#: templates/comments.php:56
+msgid "Log out &raquo;"
+msgstr ""
+
+#: templates/comments.php:60
+msgid "Name"
+msgstr ""
+
+#: templates/comments.php:62 templates/comments.php:72
+msgid " (required)"
+msgstr ""
+
+#: templates/comments.php:70
+msgid "Email (will not be published)"
+msgstr ""
+
+#: templates/comments.php:80
+msgid "Website"
+msgstr ""
+
+#: templates/comments.php:90
+msgid "Submit Comment"
+msgstr ""
+
+#: templates/content-none.php:8 templates/search-none.php:8
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/content-none.php:11
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: templates/content-single.php:12
+msgid "Pages:"
+msgstr ""
+
+#: templates/content.php:15
+msgid "read more"
+msgstr ""
+
+#: templates/search-none.php:12
+msgid "Apologies, but no results were found."
+msgstr ""
+
+#: templates/searchform-courses-big.php:12
+msgid "Category"
+msgstr ""
+
+#: templates/searchform-courses-big.php:33
+msgid "Course Status"
+msgstr ""
+
+#: templates/searchform-courses-big.php:37
+msgid "Paid"
+msgstr ""
+
+#: templates/searchform-courses-big.php:43
+msgid "Type Keyword"
+msgstr ""
+
+#: templates/searchform-courses-big.php:46
+#: templates/searchform-courses-small.php:4 templates/searchform.php:2
+#: templates/searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: templates/searchform.php:3
+msgid "Search for:"
+msgstr ""
+
+#: tribe-events/single-event.php:23
+msgid "&laquo; All Events"
+msgstr ""
+
+#: tribe-events/single-event.php:45 tribe-events/single-event.php:90
+msgid "Event Navigation"
+msgstr ""
+
+#: woocommerce/add-to-cart.php:22
+msgid "You are currently taking this course."
+msgstr ""
+
+#: woocommerce/add-to-cart.php:49
+msgid "Purchase this Course"
+msgstr ""
+
+#: woocommerce/add-to-cart.php:59
+msgid "log in"
+msgstr ""
+
+#: woocommerce/add-to-cart.php:61
+msgid "Or %1$s to access your purchased courses"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Skilled"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://skilled.aislinthemes.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Skilled is a LMS (Learning Management System). It’s suitable for school, "
+"university, college, education etc.. and also for private tutors and "
+"individuals sharing their knowledge. This theme is designed especially for "
+"creating and selling courses. Available only on ThemeForest! If you like "
+"this theme, please don’t forget to rate it."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "aislin"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themeforest.net/user/Aislin/portfolio"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Boxed"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width No Contaner"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width No Title Bar"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Home Boxed"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Home (No Footer)"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Home Transparent Header"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Sidebar - Left"
+msgstr ""
+
+#: lib/extras.php:165
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr ""

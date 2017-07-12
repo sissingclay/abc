@@ -1,0 +1,1575 @@
+ /*
+ Theme Name:   Skilled Child Theme
+ Theme URI:    http://example.com/wheels/
+ Description:  Skilled Child Theme
+ Author:       Aislin
+ Author URI:   http://example.com
+ Template:     skilled
+ Version:      1.0.0
+ Tags:
+ Text Domain:
+*/
+
+@import url("../skilled/style.css");
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+ 
+.required{display:none;}
+.description {margin-top: 7px !important;}
+.wh-footer-bottom .vc_column-inner {margin-bottom: 0px !important;}
+.check-col-pad0  .vc_column-inner {padding:0px !important;}
+.bootstrap-select > .dropdown-toggle {width: 100%;padding-right: 25px;z-index: 1;height: 40px;border: 1px solid #e3e3e3;}
+.btn-group.bootstrap-select.show-tick {margin-bottom: 15px;}
+#customer_details select {font-size: 14px;color: #141412;}
+.our-team-info{overflow:hidden;}
+.our-team-info p{color:#454545 !important;}
+.our-team-info p:nth-child(1){font-size:18px !important;color:#2f2f2f !important;font-weight:600 !important;}
+.our-team-info p:nth-child(2){font-size:18px !important;color:#d14478 !important;font-weight:600 !important;}
+.About-Modal .ult_modal-body {padding: 50px;}
+.stud-test-info p{color:#454545 !important;}
+.stud-test-info p{color:#454545 !important;}
+.stud-test-info{overflow:hidden;}
+.stud-test-info p:nth-child(1){font-size:18px !important;color:#2f2f2f !important;font-weight:600 !important;}
+.stud-test-info p:nth-child(2){font-size:18px !important;color:#bf9762!important;font-weight:600 !important;}
+
+.Online-test-btn a button {
+    padding: 15px 84px !important;
+}
+.emer-label, .extra{
+	color: #32a3aa;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 20px;
+	margin-top: 11px;
+}
+.cart-total-custom, .cart-total-custom-amount{
+    font-weight: 500 !important;
+}
+
+
+@media(min-width:991px){
+	.wpProQuiz_forms {
+    	background-color: #fff !important;
+    	padding-left:92px !important;
+	}
+	.abc-learn h2 {margin-left: -26px !important;}
+}
+
+.wpProQuiz_forms table {
+    padding: 0 !important;
+}
+
+.wpProQuiz_forms ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #454545;
+    font-size:16px;
+}
+.wpProQuiz_forms :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #454545;
+   font-size:16px;
+   opacity:  1;
+}
+.wpProQuiz_forms ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #454545;
+   font-size:16px;
+   opacity:  1;
+}
+.wpProQuiz_forms :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #454545;
+   font-size:16px;
+}
+.btn_send_result{
+	display: block !important;
+	border-radius: 25px !important;
+	background-color: #1e709e !important;
+	border: #1e709e !important;
+	margin:0 auto !important;
+	text-transform: none; !important;
+	font-size: 18px !important;
+	padding: 20px !important;
+	font-weight:600 !important;
+}
+.wpProQuiz_forms input[type="text"]{
+	border-radius: 0px !important;
+	background-color: #f4f4f4;
+	border: none !important;
+	height: 54px;
+}
+.wpProQuiz_forms tr td:first-child {
+    display: none;
+}
+.thank-you:first-child{text-align: center; font-size: 20px; color: #454545; line-height: 1.8em;}
+.wpProQuiz_button.wpProQuiz_QuestionButton {
+    margin-right: 102px !important;
+}
+.wpProQuiz_question_text p {
+    line-height: 33px
+}
+/*.wpProQuiz_listItem {
+    counter-reset: headings;
+}
+.wpProQuiz_listItem:before {
+    counter-increment: headings;
+    content: counter(headings, decimal); 
+    display: block;
+    color: #e0e0e0;
+    position: absolute;
+    left: -40px;
+    top: 47%;
+}*/
+.contact-us1 input[type="submit"] {
+    border-radius: 30px !important;
+    background-color: #dfc328;
+    border: 1px solid #dfc328;
+    padding: 10px 45px;
+    float: right;
+    display: block;
+    clear: both;
+    margin-top: 20px;
+}
+.wpcf7-form-control.g-recaptcha.wpcf7-recaptcha {
+    float: right;
+    margin-top: -20px
+}
+.blog-desc-heading h2 {
+    font-size: 22px !important;
+    margin-bottom: 20px !important;
+}
+.indv-blog-mar {
+    margin-top: 40px !important;
+    margin-bottom: 22px !important;
+}
+.wpProQuiz_question_text {
+    color: #545353;
+}
+.wpProQuiz_question_text {
+    font-size: 18px !important;
+}
+.btn_send_result {
+    margin-top: 45px;
+    display: block;
+    margin: 0 auto;
+}
+.wpProQuiz_button,
+.wpProQuiz_button:hover {
+    border-radius: 26px !important;
+    color: #fff !important;
+    font-size: 15px !important;
+    line-height: 15px !important;
+    padding: 16px 47px 14px !important;
+    text-transform: none; !important;
+    background: #1e709e none repeat scroll 0 0 !important;
+    border: medium none !important;
+    font-family: "Open Sans" !important;
+    font-weight: bold !important;
+}
+.wpProQuiz_forms table {
+    margin-top: 100px;
+    padding: 50px
+}
+.wpProQuiz_forms label {
+    float: right !important;
+    margin-right: 22px !important;
+    font-size: 17px;
+}
+.wpProQuiz_forms {
+    background-color: #fff !important;
+}
+.wpProQuiz_forms input {
+    background: #F8F8F8 none repeat scroll 0% 0%;
+    border: 1px solid #BFBFBF !important;
+}
+.wpProQuiz_forms table tr {
+    margin-bottom: 20px !important;
+}
+.student-social-blog .vc_figure {
+    width: 100%;
+}
+.student-social-blog .vc_single_image-wrapper {
+    width: 100%;
+}
+.student-social-blog .vc_single_image-wrapper img {
+    width: 100%;
+}
+.vc_responsive .home-five.wpb_row .vc_span2 {
+    float: left;
+    width: 18.8%;
+    padding: 0;
+    margin-right: 1.5%;
+    min-height: 0;
+}
+.home-five .home-five-last {
+    margin: 0 !important;
+}
+.wpProQuiz_forms input[type="text"] {
+    margin-left: 10px;
+    border: 1px solid #eee;
+}
+.wpProQuiz_forms table td {
+    text-align: left !important;
+    width: 46%;
+}
+.wpProQuiz_button.english-finish {
+    display: block;
+    margin: 0 auto !important;
+}
+.wpProQuiz_invalidate {
+    position: absolute;
+}
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.container {
+    width: 1160px;
+    margin: auto;
+}
+.col {
+    width: 25%;
+    float: left;
+    padding: 0 10px
+}
+.blog {
+    border: 1px solid #eaeaea;
+}
+.blog img {
+    width: 100%;
+    border: 1px solid #eaeaea;
+    height: 180px !important;
+}
+.blog-desc {
+    padding: 0 15px;
+}
+.blog-desc button {
+    background-color: #409f47;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 14px;
+    padding: 14px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 15px 0 20px 0px;
+    cursor: pointer;
+}
+.blog-desc button:hover,
+.blog-desc button:focus {
+    background-color: #409f47 !important;
+    border: 1px solid #409f47 !important;
+}
+button:focus {
+    background-color: none !important;
+    border: 1px solid #409f4700 !important;
+}
+.blog-desc p {
+    font-weight: bold;
+    color: #454545;
+    margin-top: 20px;
+    height: 45px;
+    overflow: hidden;
+}
+.bottom30 {
+    margin-bottom: 30px;
+}
+.search-field {
+    display: none;
+}
+.search-field {
+    position: absolute;
+    right: 55px;
+    width: 169px !important;
+}
+body.search .search-form {
+    margin-bottom: 0px !important;
+}
+.search-form {
+    overflow: hidden;
+    float: right;
+    margin-left: 12px;
+}
+.search-icon {
+    cursor: pointer;
+}
+.search-field {
+    position: absolute;
+    right: 55px;
+    width: 169px !important;
+    height: 44px !important;
+}
+.smile_icon_list.with_bg .icon_list_icon {
+    background: rgba(1, 131, 204, 0) !important;
+    -webkit-background: rgba(1, 131, 204, 0) !important;
+    color: #fff;
+}
+.sk-fading-circle {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+.sk-fading-circle .sk-circle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.sk-fading-circle .sk-circle:before {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    height: 15%;
+    background-color: #333;
+    border-radius: 100%;
+    -webkit-animation: sk-circleFadeDelay 1.2s infinite ease-in-out both;
+    animation: sk-circleFadeDelay 1.2s infinite ease-in-out both;
+}
+.sk-fading-circle .sk-circle2 {
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+.sk-fading-circle .sk-circle3 {
+    -webkit-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    transform: rotate(60deg);
+}
+.sk-fading-circle .sk-circle4 {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.sk-fading-circle .sk-circle5 {
+    -webkit-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+.sk-fading-circle .sk-circle6 {
+    -webkit-transform: rotate(150deg);
+    -ms-transform: rotate(150deg);
+    transform: rotate(150deg);
+}
+.sk-fading-circle .sk-circle7 {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.sk-fading-circle .sk-circle8 {
+    -webkit-transform: rotate(210deg);
+    -ms-transform: rotate(210deg);
+    transform: rotate(210deg);
+}
+.sk-fading-circle .sk-circle9 {
+    -webkit-transform: rotate(240deg);
+    -ms-transform: rotate(240deg);
+    transform: rotate(240deg);
+}
+.sk-fading-circle .sk-circle10 {
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+.sk-fading-circle .sk-circle11 {
+    -webkit-transform: rotate(300deg);
+    -ms-transform: rotate(300deg);
+    transform: rotate(300deg);
+}
+.sk-fading-circle .sk-circle12 {
+    -webkit-transform: rotate(330deg);
+    -ms-transform: rotate(330deg);
+    transform: rotate(330deg);
+}
+.sk-fading-circle .sk-circle2:before {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+}
+.sk-fading-circle .sk-circle3:before {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+}
+.sk-fading-circle .sk-circle4:before {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+.sk-fading-circle .sk-circle5:before {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+.sk-fading-circle .sk-circle6:before {
+    -webkit-animation-delay: -0.7s;
+    animation-delay: -0.7s;
+}
+.sk-fading-circle .sk-circle7:before {
+    -webkit-animation-delay: -0.6s;
+    animation-delay: -0.6s;
+}
+.sk-fading-circle .sk-circle8:before {
+    -webkit-animation-delay: -0.5s;
+    animation-delay: -0.5s;
+}
+.sk-fading-circle .sk-circle9:before {
+    -webkit-animation-delay: -0.4s;
+    animation-delay: -0.4s;
+}
+.sk-fading-circle .sk-circle10:before {
+    -webkit-animation-delay: -0.3s;
+    animation-delay: -0.3s;
+}
+.sk-fading-circle .sk-circle11:before {
+    -webkit-animation-delay: -0.2s;
+    animation-delay: -0.2s;
+}
+.sk-fading-circle .sk-circle12:before {
+    -webkit-animation-delay: -0.1s;
+    animation-delay: -0.1s;
+}
+@-webkit-keyframes sk-circleFadeDelay {
+    0%, 39%, 100% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+}
+@keyframes sk-circleFadeDelay {
+    0%, 39%, 100% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+}
+.sf-menu.wh-menu-main a {
+    padding: 0;
+    font-size: 13px !important;
+}
+.sf-menu > li {
+    margin-right: 47px !important;
+}
+.sf-menu > li:last-child {
+    margin-right: 0px !important;
+}
+.sf-menu.wh-menu-main {
+    margin-right: 23px !important;
+}
+#menu-footer-menu {
+    float: right;
+}
+.cartbg .vc_column-inner {
+    padding: 0px !important;
+}
+button.ubtn-normal {
+    padding: 15px 40px;
+}
+.ppad_img {
+    padding-bottom: 40px !important;
+    padding-top: 40px !important;
+}
+.wh-footer-widgets a {
+    color: #fff !important;
+    font-size: 14px;
+}
+.wh-footer h3 {
+    color: #fff !important;
+    font-size: 20px !important;
+    margin-bottom: 30px;
+}
+.post-date {
+    color: #d14478!important;
+    display: block;
+}
+#menu-footer-menu-1 li {
+    display: inline-block;
+}
+#menu-footer-menu-1 li a {
+    font-size: 13px;
+    color: #b1b1b1;
+    list-style-type: none;
+}
+.wh-footer-bottom p {
+    color: #b1b1b1 !important;
+    margin-top: 16px;
+}
+.wh-footer .widget ul li:first-child {
+    padding-top: 0 !important;
+}
+.courses_footer {
+    position: absolute;
+    margin-top: 74px;
+    list-style-type: none;
+    padding-left: 21px;
+}
+.wh-footer-bottom .wh-padding {
+    padding-top: 10px;
+}
+.wh-footer-bottom .wh-padding {
+    padding-bottom: 10px;
+}
+#menu-footer-menu-1 {
+    float: right
+}
+.footer-contact {
+    color: #d14478 !important;
+    font-size: 20px !important;
+    padding-top: 14px;
+}
+.wh-footer .widget ul li::before {
+    border: none !important
+}
+.wh-footer .widget ul li {
+    padding: 7px 0 7px 0px;
+}
+.wh-footer-bottom .vc_row-has-fill > .vc_column_container > .vc_column-inner {
+    padding-top: 0px !important;
+}
+.courses_footer li {
+    background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/11/blue-bullet-1.png) no-repeat left center;
+    padding-left: 15px !important;
+    margin-bottom: 10px;
+}
+.wh-footer .wh-footer-bottom a {
+    color: #b1b1b1 !important;
+}
+.small_txt button span {
+    text-transform: none;
+}
+.wh-footer {
+    margin-top: -20px;
+}
+.online-arroo img {
+    margin-left: -59px !important;
+    position: absolute;
+    top: 16px;
+}
+cir-height {
+    height: 55px;
+    overflow: hidden;
+}
+.test-bg {
+    background: url('http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/info-background.jpg');
+    padding: 0;
+    margin-top: -25px;
+}
+.wpProQuiz_question {
+    margin-bottom: 10px !important;
+    background: #f4f4f4!important;
+    border: none !important;
+    padding: 23px !important;
+    list-style: none !important;
+}
+.wpProQuiz_questionList {
+    border: none !important;
+    background: #f4f4f4 !important;
+    color: #454545
+}
+.wpProQuiz_listItem {
+    font-size: 80px;
+    padding-left: 70px !important;
+    color: #e0e0e0;
+    font-weight: 600;
+}
+.wpProQuiz_questionListItem {
+    font-size: 15px !important;
+}
+.wpProQuiz_list {
+    border: 0 !important;
+    padding: 10px 100px !important;
+}
+.our-info {
+    height: 52px;
+    overflow: hidden;
+}
+.teamname-height {
+    height: 40px;
+    overflow: hidden;
+}
+.check-padlr button {
+    padding: 15px 50px;
+}
+.stud-test .ult-overlay-close {
+    background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/popup-cross-stud.png) center center no-repeat;
+}
+.under-18-desc {
+    height: 78px;
+    overflow: hidden;
+}
+.course-info {
+    height: 66px;
+    overflow: hidden;
+}
+.prises-info {
+    height: 70px;
+    overflow: hidden;
+}
+.wpProQuiz_listItem {
+    font-size: 80px;
+    padding-left: 70px !important;
+    -webkit-list-style: url !important;
+    color: #e0e0e0;
+    font-weight: 600;
+}
+.woocommerce-MyAccount-content {
+    border: 1px solid #e7e7e7;
+    padding: 10px 50px;
+    background-color: #ecf0f5;
+}
+.my-account-col .vc_column-inner {
+    padding-left: 0px;
+    padding-right: 0px
+}
+.woocommerce-MyAccount-navigation ul li {
+    background-image: url('http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/bullet-		arrow.png');
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.woocommerce-MyAccount-navigation ul li a {
+    font-size: 18px;
+}
+.u-column1 {
+    padding: 50px 70px;
+}
+.woocommerce-Input {
+    background-color: #fff !important;
+}
+.u-column2 {
+    padding: 50px 70px;
+}
+.u-column1 h2,
+.u-column2 h2 {
+    font-size: 20px;
+}
+.woocommerce-ResetPassword.lost_reset_password {
+    margin: 0 200px;
+    padding: 40px;
+    background-color: #fff;
+}
+#user_login {
+    background-color: #F5F5F5 !important;
+    border: 1px solid #c8c8c8;
+}
+.checkout-left .vc_column-inner {
+    padding: 0px;
+}
+.acc-supply {
+    padding-left: 20px;
+    color: #454545;
+    font-weight: normal !important;
+    font-size: 16px;
+}
+.check-list li {
+    font-size: 16px;
+    color: #32a3aa;
+    font-weight: normal !important;
+    list-style-type: disc;
+}
+.check-list {
+    margin: 0;
+}
+.proc_name {
+    padding-left: 25px;
+}
+.martop-acc {
+    margin-top: 25px;
+}
+.marbottom20 {
+    margin-bottom: 20px;
+}
+#accomodation_cart td {
+    padding: 0px 15px
+}
+.padtb20 {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 42px !important;
+}
+.product-total .woocommerce-Price-amount.amount {
+    padding-top: 4px;
+}
+.book_btm a {
+    font-weight: bold !important;
+    font-size: 20px !important;
+    padding: 20px 55px !important;
+    border-radius: 29px !important;
+}
+.round button {
+    border-radius: 30px;
+}
+.wh-top-bar-additional-text {
+    float: right !important;
+    padding-right: 10px !important;
+}
+.see-prices a {
+    padding-left: 30px;
+}
+.online-arroo {
+    margin-left: -33px;
+}
+/* -------------------------- Media Strats -------------------------- */
+
+@media (min-width: 780px) {
+    .wpProQuiz_forms table tr {
+        float: left;
+        width: 50%;
+        margin-bottom: 40px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1165px) {
+    .sf-menu.wh-menu-main {
+        margin-left: 139px;
+    }
+    body {
+        overflow: hidden;
+    }
+}
+@media(min-width:900px) {
+    .phone {
+        font-size: 18px !important;
+    }
+    .lang {
+        font-size: 18px !important;
+    }
+    .phone-margin {
+        margin-right: 15px !important;
+    }
+}
+@media(min-width:801px) and (max-width:1340px) {
+    .overlay {
+        min-height: 350px !important;
+    }
+}
+@media(max-width:500px) {
+    .wpProQuiz_list {
+        border: 0 !important;
+        padding: 10px 43px !important;
+    }
+    .wpProQuiz_listItem {
+        //list-style: none !important;
+        font-size: 35px;
+        padding-left: 0px !important;
+    }
+}
+.round-btn button {
+    border-radius: 20px !important;
+}
+#billing_gender_field {
+    display: inline-flex;
+	width:100%;
+}
+#billing_gender {
+    margin-top: -14px;
+}
+#acc_zone {
+    background: none aliceblue;
+}
+.woocommerce-Price-amount.amount {
+    font-size: 16px;
+    color: #454545;
+    float: right;
+}
+.cart-total-custom {
+    font-size: 22px !important;
+    color: #32a3aa !important;
+    text-transform: uppercase;
+}
+.martop23 {
+    margin-top: 23px !important;
+}
+.pay-methods {
+    width: 234px;
+    float: right;
+    margin-bottom: 20px;
+    clear: both;
+}
+.gateway {
+    clear: both !important;
+    float: right;
+}
+.gateway img:nth-child(2) {
+    margin-left: 25px;
+    width: 160px;
+}
+.cart-total-padding {
+    padding: 20px
+}
+.cart-next-btn {
+    float: right;
+    margin-top: 50px !important;
+    border-radius: 25px !important;
+    padding: 14px 75px !important;
+}
+.cart-total-custom-amount {
+    font-size: 22px !important;
+    color: #2d2d2d !important;
+	float: right;
+}
+.acc-exchange {
+    padding: 0;
+    list-style-position: inside;
+    margin: 0px 0px 0px 20px;
+    list-style-image: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dot.png);
+}
+.acc-exchange li {
+    font-size: 16px !important;
+    color: #454545 !important;
+    text-indent: -20px;
+}
+.cart .vc_column-inner {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.woocommerce-message {
+    display: none;
+}
+.cart-step1 h4 {
+    color: #32a3aa !important;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+	margin-bottom:30px;
+	margin-top:20px;
+}
+.cart-step1 select {
+    padding-left: 10px;
+    border: 1px solid #e3e3e3 !important;
+    border-radius: 6px !important;
+    width: 100%;
+    margin-bottom: 15px !important;
+    background-color: #fff;
+}
+.cart-step1 {
+    width: 50%;
+    float: left;
+    padding: 65px;
+    background-color: #fafafa;
+    margin-top: -15px !important;
+}
+.custom_data {
+    width: 50%;
+    float: left;
+}
+input[type="text"] {
+    border: 1px solid #e3e3e3 !important;
+    border-radius: 6px !important;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.allergies-left {
+    width: 50%;
+    float: left;
+}
+.allergies-right {
+    width: 50%;
+    float: left;
+}
+input[type=checkbox].css-checkbox {
+    position: absolute;
+    z-index: -1000;
+    left: -1000px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+input[type=checkbox].css-checkbox + label.css-label {
+    padding-left: 35px;
+    height: 18px;
+    display: inline-block;
+    line-height: 18px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    font-size: 14px;
+    vertical-align: middle;
+    cursor: pointer;
+	font-weight:400;
+}
+input[type=checkbox].css-checkbox:checked + label.css-label {
+    background-position: 0 -18px;
+}
+label.css-label {
+    background-image: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/tick1.png);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#custom_data {
+    float: left;
+    width: 50%;
+    padding: 65px;
+}
+#accomodation_cart b {
+    color: #2D2D2D;
+    font-size: 16px;
+    font-weight: 600;
+}
+#arrivaltime,
+#arrivalairport {
+    width: 45%;
+    float: left;
+    margin-right: 20px
+}
+#coursestartdate, #smoke, #acc_startdate, #transport_type, #arrivaldate, #acc_supplement, #acc_zone{
+    width: 45%;
+    float: left;
+    margin-right: 20px
+}
+#div_accsupplement > select {
+    margin-right: 5px;
+    width: 49%;
+}
+#courseweekdiv, #petbother, #acc_enddate, #flightname, #departuredate{
+    width: 49%;
+    float: left;
+    margin-right: -3px
+}
+#departuretime
+ {
+    width: 50%;
+    float: left;
+    margin-right: 0px
+}
+select {
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dropdown-arrow.png) 96% / 3% no-repeat #fff;
+}
+/*target Internet Explorer 9 and Internet Explorer 10:*/
+
+@media screen and (min-width: 0\0) {
+    select {
+        background: none;
+        padding: 5px;
+    }
+}
+.cartbg .vc_column-inner {
+    padding: 0px !important;
+}
+.proc_att ul {
+    padding: 0;
+    list-style-position: inside;
+    margin: 0px 0px 0px 0px;
+}
+.proc_att li {
+    font-size: 16px;
+    color: #454545;
+    text-transform: capitalize;
+    list-style-type: disc;
+    color: #32a3aa;
+}
+.proc_extracharges ul {
+    padding: 0;
+    list-style-position: inside;
+    margin: 0;
+    list-style-image: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dot.png)
+}
+.proc_extracharges li {
+    font-size: 16px;
+    color: #454545;
+}
+.cart-total {
+    background-color: #d8f2f3
+}
+.priceright {
+    text-align: right;
+    font-size: 17px;
+    color: #454545;
+    padding-top: 4px !important;
+	vertical-align: top;
+}
+table,
+td {
+    border: none;
+}
+td {
+    padding: 6px 15px;
+}
+.maincart {
+    margin-top: 0px;
+}
+.woocommerce a.button.alt {
+    border-radius: 26px;
+    padding: 15px 75px;
+}
+#coursestartdate select {
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dropdown-arrow.png) 96% / 6% no-repeat #fff !important;
+}
+#courseweekdiv select {
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dropdown-arrow.png) 96% / 6% no-repeat #fff !important;
+}
+#smoke {
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dropdown-arrow.png) 96% / 6% no-repeat #fff !important;
+}
+#petbother, #acc_supplement {
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dropdown-arrow.png) 96% / 6% no-repeat #fff !important;
+}
+#transport_type {
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dropdown-arrow.png) 96% / 6% no-repeat #fff !important;
+}
+@media(max-width:767px) {
+    .checkout-mobile-row-hide {
+        display: none !important;
+    }
+    .checkout-mobile-column .vc_column-inner {
+        margin-bottom: 0px;
+    }
+    .cart-step1 {
+        width: 100%;
+        float: left;
+        padding: 20px;
+    }
+    #arrivaldate,
+    #arrivaltime,
+    #arrivalairport {
+        width: 100%;
+    }
+    #departuredate,
+    #departuretime {
+        width: 100%;
+    }
+    #custom_data {
+        float: left;
+        width: 100%;
+        padding: 0px;
+    }
+    #coursestartdate,
+    #smoke,
+    #acc_startdate, #flightname {
+        width: 100%;
+        float: left;
+        margin-right: 20px;
+    }
+    #departuredate,
+    #departuretime,
+    #transport_type {
+        width: 100%;
+        float: left;
+        margin-right: 0px;
+    }
+    #courseweekdiv,
+    #petbother,
+    #acc_enddate {
+        width: 100%;
+        float: left;
+        margin-right: 0px;
+    }
+    #coursestartdate select {
+        background: transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dropdown-arrow.png) 96% / 3% no-repeat #fff !important;
+    }
+    #courseweekdiv select {
+        background: transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dropdown-arrow.png) 96% / 3% no-repeat #fff !important;
+    }
+    #smoke {
+        background: transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dropdown-arrow.png) 96% / 3% no-repeat #fff !important;
+    }
+    #petbother {
+        background: transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dropdown-arrow.png) 96% / 3% no-repeat #fff !important;
+    }
+    #transport_type {
+        background: transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dropdown-arrow.png) 96% / 3% no-repeat #fff !important;
+    }
+	.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 100% !important;
+}
+}
+@media(min-width:768px) and (max-width:990px) {
+    #arrivaldate, #arrivaltime, #arrivalairport {
+        width: 100%;
+    }
+    #departuredate,
+    #departuretime {
+        width: 100%;
+    }
+    .cart-step1 {
+        width: 50%;
+        float: left;
+        padding: 48px;
+    }
+    #courseweekdiv,
+    #petbother,
+    #acc_enddate {
+        width: 100%;
+        float: left;
+        margin-right: 0px;
+    }
+    #coursestartdate,
+    #smoke,
+    #acc_startdate {
+        width: 100%;
+        float: left;
+        margin-right: 20px;
+    }
+    #coursestartdate select {
+        background: transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dropdown-arrow.png) 96% / 3% no-repeat #fff !important;
+    }
+    #courseweekdiv select {
+        background: transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dropdown-arrow.png) 96% / 3% no-repeat #fff !important;
+    }
+    #smoke {
+        background: transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dropdown-arrow.png) 96% / 3% no-repeat #fff !important;
+    }
+    #petbother {
+        background: transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dropdown-arrow.png) 96% / 3% no-repeat #fff !important;
+    }
+    #transport_type {
+        background: transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/12/dropdown-arrow.png) 96% / 3% no-repeat #fff !important;
+    }
+    #departuredate,
+    #departuretime,
+    #transport_type, #flightname {
+        width: 100%;
+        float: left;
+        margin-right: 0px;
+    }
+    .allergies-right {
+        width: 100%;
+        float: left;
+    }
+    #custom_data {
+        float: left;
+        width: 50%;
+        padding: 65px 8px;
+    }
+	.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 100% !important;
+	}
+	.allergies-left {width: 100%;float: left;margin-bottom: 14px;}
+}
+.ppad_img {
+    padding-bottom: 90px !important;
+    padding-top: 90px !important;
+}
+.summer-info {
+    height: 72px;
+    overflow: hidden;
+}
+.see-prices1 {
+    padding-left: 15px !important;
+}
+.Online-test-btn button {
+    border-radius: 30px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+.airport-acc-col4 {
+    padding-left: 238px !important;
+    padding-right: 39px !important;
+}
+.visas-outline {
+    border: 7px solid #bf9762;
+    border-radius: 5px;
+    padding: 0px 15px 15px 15px !important;
+}
+.visa-apply {
+    padding: 0 75px;
+    margin-bottom: 30px;
+}
+.airport-acc-col5 {
+    margin-left: -36px !important;
+    padding-right: 274px !important;
+}
+.faq-left .wpb_wrapper .vc_toggle:last-child {
+    margin-bottom: 0px !important;
+}
+@media(max-width:340px) {
+    .breadcrums {
+        height: 78px !important;
+    }
+    .round-res {
+        margin: 0 auto !important;
+        font-size: 13px !important;
+        display: block;
+        width: 100%;
+        padding: 0 24px;
+    }
+    .breadcrums-mob {
+        height: 56px !important;
+    }
+    .breadcrums {
+        height: 78px;
+    }
+}
+@media(max-width:768px) {
+	
+    .cart-mobile-hide {
+        display: none !important;
+    }
+    .cart-mobile-column .vc_column-inner {
+        margin-bottom: 0px !important
+    }
+    .checkout-button {
+        margin-top: 10px !important;
+    }
+    .woocommerce #customer_login .col-1,
+    .woocommerce #customer_login .col-2 {
+        width: 100%;
+        float: left;
+    }
+    .u-column1 {
+        padding: 3px 30px;
+    }
+    .u-column2 {
+        padding: 3px 30px;
+    }
+    .check-list {
+        margin: 0;
+        padding: 0 0 0 17px;
+    }
+    .ppad_img {
+        padding-bottom: 23px !important;
+        padding-top: 0px !important;
+    }
+    .visa-apply {
+        padding: 0 20px;
+        margin-bottom: 30px;
+    }
+    .usefull-data {
+        padding-left: 15px;
+    }
+}
+@media(max-width:767px) {
+	#menu-footer-menu {float: left !important;}
+     .wpProQuiz_forms table {margin-top: 10px;}
+    .faq-left .wpb_wrapper .vc_toggle:last-child {
+        margin-bottom: 20px !important;
+    }
+    .maincart.shop-mob-martop {
+        margin-top: 20px !important;
+    }
+    .indv-blog-mar {
+        margin-top: 40px !important;
+        margin-bottom: 10px !important;
+    }
+    .vc_column-inner.contact-captcha {
+        padding: 0;
+    }
+	.gateway img:nth-child(2) {
+    margin-left: 25px;
+    width: 145px;
+	}
+	.mob-padtb20 {
+    padding-top: 20px;
+	}
+ .see-prices {margin-top: -10px !important;}
+}
+@media(min-width:768px) and (max-width:991px) {
+    .lang-margin {
+        margin: 0px 0px 0px 0px !important;
+    }
+    .phone-margin {
+        margin: 0px 0px 0px 0px !important;
+    }
+    .phone {
+        font-size: 13px !important;
+    }
+    .lang {
+        font-size: 13px !important;
+    }
+    .view-courses .see-prices {
+        padding: 0 7px !important;
+    }
+    .prices-method {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .prices-method .see-prices {
+        padding-left: 0px;
+    }
+    .prises-info {
+        height: 70px;
+        overflow: hidden;
+    }
+    .prices-method h3 {
+        height: 47px;
+        overflow: hidden;
+    }
+    .sf-menu.wh-menu-main {
+        margin-right: 0px !important;
+    }
+    .firend-height .aio-icon-box {
+        padding: 0px;
+    }
+    .see-prices {
+        padding: 0;
+        margin-top: 10px !important;
+    }
+    .firend-height h3 {
+        height: 40px;
+    }
+    .cir-height {
+        height: 78px;
+        overflow: hidden;
+    }
+    .see-prices button {
+        border-radius: 26px !important;
+        padding: 10px 30px !important;
+        margin-top: 0px !important;
+    }
+    .see-prices a {
+        padding-left: 10px;
+    }
+    .round.round-res {
+        margin-right: 15px !important;
+    }
+    .online-arroo {
+        margin-left: 15px !important;
+    }
+    .summer .aio-icon-box {
+        padding: 0 !important;
+    }
+    .summer h3 {
+        height: 44px;
+        overflow: hidden;
+    }
+    .see-prices1 {
+        padding-left: 5px !important;
+    }
+    .Online-test-btn button {
+        border-radius: 30px;
+        padding-left: 38px !important;
+        padding-right: 30px !important;
+    }
+    .callan-prices {
+        height: 80px;
+        overflow: hidden;
+    }
+    .airport-acc-col4 {
+        padding-left: 128px !important;
+        padding-right: 0px !important;
+    }
+    .airport-acc-col5 {
+        margin-left: 0px !important;
+        padding-right: 115px !important;
+    }
+    .flatp-height {
+        height: 47px;
+        overflow: hidden;
+    }
+    .entry-title {
+        height: 76px;
+        overflow: hidden;
+    }
+    .usefull-data {
+        padding-left: 15px;
+    }
+    .breadcrums-res-blog {
+        height: 70px !important;
+    }
+   .wpProQuiz_forms table tr {
+    margin-bottom: 20px !important;
+    width: 50% !important;
+    float: left;
+}
+
+
+
+}
+@media(max-width:385px) {
+    .bread-english {
+        height: 78px !important;
+    }
+	 
+}
+.wpProQuiz_forms table tbody tr:last-child {
+    display: none;
+}
+@media(max-width:325px) {
+    .amount-mob {
+        padding-right: 25px;
+    }
+    .order-total th {
+        padding: 20px 20px !important;
+    }
+    .cart-total-custom-amount {
+        font-size: 19px !important;
+        color: #2d2d2d !important;
+    }
+}
+@media(max-width:360px) {
+    .rc-anchor-normal {
+        height: 74px;
+        width: 261px !important;
+    }
+   .bread-airline{height:78px !important;}
+}
+.rc-anchor-normal {
+    height: 74px;
+    width: 247px;
+}
+
+@media(max-width:767px){
+	.round-res a {padding: 0px !important;text-align: center;}
+	.round-res a span{font-size:15px;}
+}
+.c-see-prices a {
+    padding-left: 0px !important;
+}
+
+@media(width:768px){
+	 .round.round-res {margin-right: 2px !important;} 
+}
+@media(min-width:768px){
+	.allergies-left {margin-top: 10px;}
+}
+#billing_extras, #billing_applyfor {
+    font-size: 14px;
+    color: #141412;
+    text-transform: capitalize;
+}
+.wc-terms-and-conditions {
+    background-color: #fff !important;
+    padding: 10px 20px !important;
+	border:1px solid #e3e3e3;
+	margin-bottom:15px !important;
+}
+.wc-terms-and-conditions a{color:#32a3aa !important;}
+
+.wc-terms-and-conditions label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 25px;
+  margin-right: 15px;
+  font-size: 14px;
+  color:#454545
+}
+.wc-terms-and-conditions input[type=checkbox] {
+  display: none !important;
+}
+.wc-terms-and-conditions label:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  background-color: #fff;
+  border:1px solid #e3e3e3;
+  top: 7px;
+}
+.wc-terms-and-conditions label.checkbox {display:block !important;}
+
+.wc-terms-and-conditions .checkbox label:before {
+  border-radius: 3px;
+}
+.wc-terms-and-conditions input[type=checkbox]:checked + label:before {
+  content: "\2713";
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+  font-size: 15px;
+  color: #454545;
+  text-align: center;
+    line-height: 15px;
+}
+@media(max-width:992px){
+	.place-order {
+    float: none !important;
+}
+}
+
+.product-name{font-weight:600;color:#454545;}
+
+@media(min-width:768px) and (max-width:991px){
+	.see-prices {margin-top: 0px !important;}
+}
+
+/*************Custom Menu**************/
+#menu-select-language{	
+	margin-top: 3px;
+    	margin-left: 0px;
+}
+#menu-select-language>li:first-child{
+	border: none;
+}
+#menu-select-language>li a{
+	text-transform: normal;
+}
+.blog_post_header{
+	padding-top: 55px !important;
+   	padding-bottom: 55px !important;
+    	background-image: url(http://wordpress-9522-31986-161247.cloudwaysapps.com/wp-content/uploads/2016/11/blog-details.jpg?id=15023) !important;
+	background-size: cover;
+}
+
+.breadcrums-res-blog-post{
+	background-color: #a444ac !important;
+}
+.one.whole.wh-padding.wh-content-inner{
+	width: 75%;
+}
+.one.whole.wh-post-item.hentry{
+	width: 50%;
+	padding-right: 5%;
+		padding-top: 20px;
+}
+.search-results .categories-3, .search-results .recent-posts-5 {display:none !important; }

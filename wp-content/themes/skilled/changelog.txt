@@ -1,0 +1,23 @@
+/* 2016-07-11 v1.1.2 */
+- Gmaps API key fix
+- Ultimate Addons for Visual Composer 3.16.6
+- Visual Composer 4.12
+- LayerSlider 5.6.9
+
+/* 2016-04-22 v1.1.1 */
+- Visual Composer 4.11.2.1
+- LayerSlider 5.6.6
+
+/* 2016-04-21 v1.1.0 */
+- WP 4.5 compatibility
+- updated required plugins:
+	Skilled Plugin 1.1.0,
+	Visual Composer 4.11.2,
+	Ultimate Addons for Visual Composer 3.16.1,
+	LayerSlider 5.6.5
+
+/* 2016-03-10 v1.0.1 */
+- Metabox database key corrected
+
+/* 2016-01-15 v1.0.0 */
+- Initial release

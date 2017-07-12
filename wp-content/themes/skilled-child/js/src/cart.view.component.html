@@ -1,0 +1,204 @@
+<div id="custom_data">
+    <div id="accomodation_cart">
+        <div class="maincart">
+            <div class="proc_name marbottom20 mob-padtb20">
+                <b style="color:#32a3aa;font-size:18px;font-weight:400;">Shopping cart</b>
+            </div>
+        </div>
+        <div class="maincart" *ngIf="cart && cart.course">
+            <div class="proc_name" *ngIf="cart.course.back_getProductOption">
+                <b class="product-name">{{ getCourseName(cart.course.back_getProductOption) }} <span *ngIf="cart.course.back_productid">– {{ getName(cart.course.back_productid, 'options') }}</span></b>
+            </div>
+
+            <div class="product-total" *ngIf="wooData && wooData.cart">
+                <div class="amount-mob ghv">
+                    <span class="woocommerce-Price-amount amount">
+                        <span class="woocommerce-Price-currencySymbol">&pound;</span><span>{{ getSectionTotal(wooData.cart) }}</span>
+                    </span>
+                </div>
+            </div>
+
+            <ul class="check-list">
+                
+                <li *ngIf="(cart && cart.course) && (cart.course.back_coursestartdate || cart.course.back_courseweek || cart.course.back_course_level)">
+                    <div class="acc-supply">
+                        <span *ngIf="cart.course.back_coursestartdate">
+                            Course start date:<br>
+                            <strong>{{ cart.course.back_coursestartdate }}</strong> <br>
+                        </span>
+                        <span *ngIf="cart.course.back_courseweek">
+                            Course length: <br>
+                            <strong>{{ getName(cart.course.back_courseweek, 'weeks') }}</strong><br>
+                        </span>
+                        <span *ngIf="cart.course.back_course_level">
+                            Course level:<br>
+                            <strong>{{ getName(cart.course.back_course_level, 'levels') }}</strong>
+                        </span>
+                    </div>
+                </li>
+                <li *ngIf="wooData && wooData.fees">
+                    <div *ngFor="let fee of wooData.fees.courseExtras">
+                        <div class="acc-supply">{{ fee.label }} 
+                            <div class="amount-mob">
+                                <span class="woocommerce-Price-amount amount">
+                                    <span class="woocommerce-Price-currencySymbol">&pound;</span>{{ fee.amount }}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="maincart">
+            <div class="proc_name">
+                <b>Accommodation</b>
+            </div>
+        </div>
+
+        <ul class="check-list">
+
+            <li *ngIf="(cart && !cart.accommodation)">
+                <div class="acc-supply">No accommodation required</div>
+            </li>
+
+            <li *ngIf="(cart && cart.accommodation && cart.accommodation.back_meal_plan)">
+                <div class="acc-supply">
+                    {{ cart.accommodation.back_meal_plan }}
+                </div>
+            </li>
+
+            <li *ngIf="(cart && cart.accommodation && cart.accommodation.back_product_acc_zone)">
+                <div class="acc-supply">
+                    Zone:
+                </div>
+                <div class="priceright">
+                    {{ cart.accommodation.back_product_acc_zone }}
+                </div>
+            </li>
+
+            <li *ngIf="(cart && cart.accommodation && cart.accommodation.back_accommodation_length)">
+                <div class="acc-supply">
+                    Accommodation length:
+                </div>
+                <div class="priceright">
+                    {{ cart.accommodation.back_accommodation_length }}
+                </div>
+            </li>
+
+            <li *ngIf="(cart && cart.accommodation && cart.accommodation.under_18)">
+                <div class="acc-supply">
+                    Under 18:
+                </div>
+                <div class="priceright">
+                    {{ cart.accommodation.under_18 }}
+                </div>
+            </li>
+
+            <li *ngIf="(cart && cart.accommodation && cart.accommodation.back_acc_startdate)">
+                <div class="acc-supply">
+                    Starting date:
+                </div>
+                <div class="priceright">
+                    {{ cart.accommodation.back_acc_startdate }}
+                </div>
+            </li>
+
+            <li *ngIf="(cart && cart.accommodation && cart.accommodation.back_acc_enddate)">
+                <div class="acc-supply">
+                    Finishing Date:
+                </div>
+                <div class="priceright">
+                    {{ cart.accommodation.back_acc_enddate }}
+                </div>
+            </li>
+
+            <li *ngIf="(cart && cart.accommodation && cart.accommodation.back_smoke)">
+                <div class="acc-supply">
+                    Do you smoke?
+                </div>
+                <div class="priceright">
+                    {{ cart.accommodation.back_smoke }}
+                </div>
+            </li>
+
+            <li *ngIf="(cart && cart.accommodation && cart.accommodation.back_petbother)">
+                <div class="acc-supply">
+                    Do pets bother you?
+                </div>
+                <div class="priceright">
+                    {{ cart.accommodation.back_petbother }}
+                </div>
+            </li>
+
+            <li *ngIf="(cart && cart.accommodation && cart.accommodation.back_bathroom)">
+                <div class="acc-supply">
+                    Private Bathroom?
+                </div>
+                <div class="priceright">
+                    {{ cart.accommodation.back_bathroom }}
+                </div>
+            </li>
+
+            <li *ngIf="(cart && cart.accommodation && cart.accommodation.back_allergies)">
+                <div class="acc-supply">
+                    Do you have allergies?
+                </div>
+                <div class="priceright" ngIf="cart && cart.accommodation && cart.accommodation.back_allergiestype">
+                    {{ cart.accommodation.back_allergiestype }}
+                </div>
+            </li>
+
+        </ul>
+
+        <div class="maincart" *ngIf="cart && cart.accommodation && cart.accommodation.back_transport_type">
+            <div class="proc_name">
+                <b>Extras</b>
+            </div>
+        </div>
+
+        <ul class="check-list" *ngIf="cart && cart.accommodation && cart.accommodation.back_transport_type">
+            <li ngIf="cart && cart.accommodation && cart.accommodation.back_flightname">
+                <div class="acc-supply">Flight number</div>
+                <div class="priceright">
+                    {{ cart.accommodation.back_flightname }}
+                </div>
+            </li>
+
+            <li ngIf="cart && cart.accommodation && cart.accommodation.back_arrivaldate">
+                <div class="acc-supply">Arrival date</div>
+                <div class="priceright">
+                    {{ cart.accommodation.back_arrivaldate }}
+                </div>
+            </li>
+
+            <li ngIf="cart && cart.accommodation && cart.accommodation.back_departuredate">
+                <div class="acc-supply">Arrival time</div>
+                <div class="priceright">
+                    {{ cart.accommodation.back_departuredate }}
+                </div>
+            </li>
+        </ul>
+
+        <div class="maincart">
+            <div class="proc_name">
+                <b>Visa</b>
+            </div>
+        </div>
+
+        <ul class="check-list">
+            <li>
+                <div class="acc-supply">No visa required</div>
+            </li>
+        </ul>
+
+        <div class="cart-total" *ngIf="wooData && wooData.cart">
+            <div class="cart-total-padding padtb20">
+                <b class="cart-total-custom">Total</b>
+                <span class="rightText">
+                    <b class="cart-total-custom-amount">&pound;{{ getTotal() | number:'2.2-2' }} </b>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

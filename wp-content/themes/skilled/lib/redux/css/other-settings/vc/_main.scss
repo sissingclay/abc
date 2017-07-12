@@ -1,0 +1,27 @@
+/* -------------------------------------
+Accordion Title Color
+---------------------------------------*/
+.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a {
+    color: $accordion_title_color;
+}
+.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a:hover {
+    color: $accordion_title_color_hover;
+}
+/* -------------------------------------
+Tabs Title Color
+---------------------------------------*/
+.wpb_content_element .wpb_tabs_nav li a {
+    color: $tabs_title_color;
+}
+.wpb_content_element .wpb_tabs_nav li a:hover {
+    color: $tabs_title_color;
+}
+/* -------------------------------------
+Tabs Title Color Active
+---------------------------------------*/
+.wpb_content_element .wpb_tabs_nav li.ui-tabs-active a {
+    color: $tabs_title_active_color;
+}
+.wpb_content_element .wpb_tabs_nav li.ui-tabs-active a:hover {
+    color: $tabs_title_active_color_hover;
+}

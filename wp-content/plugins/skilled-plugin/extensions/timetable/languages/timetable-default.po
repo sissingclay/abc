@@ -1,0 +1,925 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Timetable for WordPress\n"
+"POT-Creation-Date: 2015-07-16 13:59+0100\n"
+"PO-Revision-Date: 2015-07-16 13:59+0100\n"
+"Last-Translator: \n"
+"Language-Team: QuanticaLabs\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: importer/parsers.php:42 importer/parsers.php:72 importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: importer/parsers.php:84 importer/parsers.php:89 importer/parsers.php:279
+#: importer/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: importer/wordpress-importer.php:134 importer/wordpress-importer.php:143
+#: importer/wordpress-importer.php:194 importer/wordpress-importer.php:198
+#: importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: importer/wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:511 importer/wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: importer/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: importer/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: importer/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr ""
+
+#: importer/wordpress-importer.php:916
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: importer/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: importer/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: importer/wordpress-importer.php:934
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: importer/wordpress-importer.php:1033
+msgid "Import WordPress"
+msgstr ""
+
+#: importer/wordpress-importer.php:1040
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: importer/wordpress-importer.php:1055
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: importer/wordpress-importer.php:1056
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: post-type-events.php:7 post-type-events.php:19 timetable.php:252
+#: timetable.php:1006
+msgid "Events"
+msgstr ""
+
+#: post-type-events.php:8
+msgid "Event"
+msgstr ""
+
+#: post-type-events.php:9 post-type-weekdays.php:8
+msgid "Add New"
+msgstr ""
+
+#: post-type-events.php:10
+msgid "Add New Event"
+msgstr ""
+
+#: post-type-events.php:11
+msgid "Edit Event"
+msgstr ""
+
+#: post-type-events.php:12
+msgid "New Event"
+msgstr ""
+
+#: post-type-events.php:13 timetable.php:314
+msgid "All Events"
+msgstr ""
+
+#: post-type-events.php:14
+msgid "View Event"
+msgstr ""
+
+#: post-type-events.php:15
+msgid "Search Event"
+msgstr ""
+
+#: post-type-events.php:16
+msgid "No events found"
+msgstr ""
+
+#: post-type-events.php:17
+msgid "No events found in Trash"
+msgstr ""
+
+#: post-type-events.php:64
+msgid "Event hours"
+msgstr ""
+
+#: post-type-events.php:71
+msgid "Options"
+msgstr ""
+
+#: post-type-events.php:125 post-type-events.php:186
+msgid "Tooltip"
+msgstr ""
+
+#: post-type-events.php:127 post-type-events.php:170
+msgid "Description 1"
+msgstr ""
+
+#: post-type-events.php:129 post-type-events.php:178
+msgid "Description 2"
+msgstr ""
+
+#: post-type-events.php:131 post-type-events.php:194
+msgid "Category"
+msgstr ""
+
+#: post-type-events.php:141
+msgid "Timetable column"
+msgstr ""
+
+#: post-type-events.php:152
+msgid "Start hour"
+msgstr ""
+
+#: post-type-events.php:161
+msgid "End hour"
+msgstr ""
+
+#: post-type-events.php:202
+msgid "Add"
+msgstr ""
+
+#: post-type-events.php:222
+msgid "Subtitle"
+msgstr ""
+
+#: post-type-events.php:230 timetable.php:447 timetable.php:1369
+msgid "Timetable box background color"
+msgstr ""
+
+#: post-type-events.php:235
+msgid "Required when 'Timetable box hover color' isn't empty"
+msgstr ""
+
+#: post-type-events.php:240 timetable.php:454 timetable.php:1380
+msgid "Timetable box hover background color"
+msgstr ""
+
+#: post-type-events.php:249 timetable.php:461 timetable.php:1391
+msgid "Timetable box text color"
+msgstr ""
+
+#: post-type-events.php:254
+msgid "Required when 'Timetable box hover text color' isn't empty"
+msgstr ""
+
+#: post-type-events.php:259 timetable.php:468 timetable.php:1402
+msgid "Timetable box hover text color"
+msgstr ""
+
+#: post-type-events.php:268 timetable.php:475 timetable.php:1413
+msgid "Timetable box hours text color"
+msgstr ""
+
+#: post-type-events.php:273
+msgid "Required when 'Timetable box hover hours text color' isn't empty"
+msgstr ""
+
+#: post-type-events.php:278
+msgid "Timetable box hover hours text color"
+msgstr ""
+
+#: post-type-events.php:287
+msgid "Timetable custom URL"
+msgstr ""
+
+#: post-type-events.php:295
+msgid "Disable timetable event URL"
+msgstr ""
+
+#: post-type-events.php:299 timetable.php:352 timetable.php:362
+#: timetable.php:372 timetable.php:395 timetable.php:405 timetable.php:441
+#: timetable.php:1190 timetable.php:1206 timetable.php:1222 timetable.php:1257
+#: timetable.php:1273 timetable.php:1333
+msgid "No"
+msgstr ""
+
+#: post-type-events.php:300 timetable.php:353 timetable.php:363
+#: timetable.php:373 timetable.php:396 timetable.php:406 timetable.php:440
+#: timetable.php:1191 timetable.php:1207 timetable.php:1223 timetable.php:1258
+#: timetable.php:1274 timetable.php:1332
+msgid "Yes"
+msgstr ""
+
+#: post-type-events.php:371 widget-upcoming-events.php:259
+msgid "Title"
+msgstr ""
+
+#: post-type-events.php:372 widget-upcoming-events.php:330
+msgid "Categories"
+msgstr ""
+
+#: post-type-events.php:373 post-type-weekdays.php:40
+msgid "Date"
+msgstr ""
+
+#: post-type-weekdays.php:6 post-type-weekdays.php:18
+msgid "Timetable columns"
+msgstr ""
+
+#: post-type-weekdays.php:7
+msgid "Timetable Column"
+msgstr ""
+
+#: post-type-weekdays.php:9
+msgid "Add New Timetable Column"
+msgstr ""
+
+#: post-type-weekdays.php:10
+msgid "Edit Timetable Column"
+msgstr ""
+
+#: post-type-weekdays.php:11
+msgid "New Timetable Column"
+msgstr ""
+
+#: post-type-weekdays.php:12
+msgid "All Timetable Columns"
+msgstr ""
+
+#: post-type-weekdays.php:13
+msgid "View Timetable Column"
+msgstr ""
+
+#: post-type-weekdays.php:14
+msgid "Search Timetable Columns"
+msgstr ""
+
+#: post-type-weekdays.php:15
+msgid "No timetable columns found"
+msgstr ""
+
+#: post-type-weekdays.php:16
+msgid "No timetable columns found in Trash"
+msgstr ""
+
+#: post-type-weekdays.php:39
+msgid "Day name"
+msgstr ""
+
+#: timetable.php:72
+msgid "Event post thumbnail"
+msgstr ""
+
+#: timetable.php:73
+msgid "Event post box thumbnail"
+msgstr ""
+
+#: timetable.php:242
+msgid "Timetable"
+msgstr ""
+
+#: timetable.php:259 timetable.php:1021
+msgid "Event categories"
+msgstr ""
+
+#: timetable.php:266 timetable.php:1036 widget-upcoming-events.php:344
+msgid "Hour categories"
+msgstr ""
+
+#: timetable.php:273 timetable.php:1054
+msgid "Columns"
+msgstr ""
+
+#: timetable.php:280 timetable.php:1069
+msgid "Hour measure"
+msgstr ""
+
+#: timetable.php:283 timetable.php:1074
+msgid "Hour (1h)"
+msgstr ""
+
+#: timetable.php:284 timetable.php:1075
+msgid "Half hour (30min)"
+msgstr ""
+
+#: timetable.php:285 timetable.php:1076
+msgid "Quarter hour (15min)"
+msgstr ""
+
+#: timetable.php:291 timetable.php:1086
+msgid "Filter style"
+msgstr ""
+
+#: timetable.php:294 timetable.php:1091
+msgid "Dropdown list"
+msgstr ""
+
+#: timetable.php:295 timetable.php:1092
+msgid "Tabs"
+msgstr ""
+
+#: timetable.php:301 timetable.php:1102
+msgid "Filter kind"
+msgstr ""
+
+#: timetable.php:304 timetable.php:1107
+msgid "By event"
+msgstr ""
+
+#: timetable.php:305 timetable.php:1108
+msgid "By event category"
+msgstr ""
+
+#: timetable.php:306 timetable.php:1109
+msgid "By event and event category"
+msgstr ""
+
+#: timetable.php:312 timetable.php:1119
+msgid "Filter label"
+msgstr ""
+
+#: timetable.php:319 timetable.php:1132
+msgid "Filter label 2"
+msgstr ""
+
+#: timetable.php:321
+msgid "All Events Categories"
+msgstr ""
+
+#: timetable.php:330
+msgid "Select time format"
+msgstr ""
+
+#: timetable.php:333
+msgid "09.03 (H.i)"
+msgstr ""
+
+#: timetable.php:334
+msgid "09:03 (H:i)"
+msgstr ""
+
+#: timetable.php:335
+msgid "9:03 am (g:i a)"
+msgstr ""
+
+#: timetable.php:336
+msgid "9:03 AM (g:i A)"
+msgstr ""
+
+#: timetable.php:342 timetable.php:1145 timetable.php:1150
+#: widget-upcoming-events.php:285
+msgid "Time format"
+msgstr ""
+
+#: timetable.php:349 timetable.php:1185
+msgid "Hide 'All Events' view"
+msgstr ""
+
+#: timetable.php:359 timetable.php:1201
+msgid "Hide first (hours) column"
+msgstr ""
+
+#: timetable.php:369 timetable.php:1211
+msgid "Set to Yes to hide timetable column with hours."
+msgstr ""
+
+#: timetable.php:379 timetable.php:1233
+msgid "Event block layout"
+msgstr ""
+
+#: timetable.php:382 timetable.php:1238
+msgid "Type 1"
+msgstr ""
+
+#: timetable.php:383 timetable.php:1239
+msgid "Type 2"
+msgstr ""
+
+#: timetable.php:384 timetable.php:1240
+msgid "Type 3"
+msgstr ""
+
+#: timetable.php:385 timetable.php:1241
+msgid "Type 4"
+msgstr ""
+
+#: timetable.php:386 timetable.php:1242
+msgid "Type 5"
+msgstr ""
+
+#: timetable.php:392 timetable.php:1252
+msgid "Hide empty rows"
+msgstr ""
+
+#: timetable.php:402 timetable.php:1268 widget-upcoming-events.php:384
+msgid "Disable event url"
+msgstr ""
+
+#: timetable.php:412 timetable.php:1284
+msgid "Text align"
+msgstr ""
+
+#: timetable.php:415 timetable.php:1289
+msgid "center"
+msgstr ""
+
+#: timetable.php:416 timetable.php:1290
+msgid "left"
+msgstr ""
+
+#: timetable.php:417 timetable.php:1291
+msgid "right"
+msgstr ""
+
+#: timetable.php:423 timetable.php:1301
+msgid "Id"
+msgstr ""
+
+#: timetable.php:430 timetable.php:1314
+msgid "Row height (in px)"
+msgstr ""
+
+#: timetable.php:437 timetable.php:1327
+msgid "Responsive"
+msgstr ""
+
+#: timetable.php:482 timetable.php:1424
+msgid "Timetable box hours hover text color"
+msgstr ""
+
+#: timetable.php:489 timetable.php:1435
+msgid "Filter control background color"
+msgstr ""
+
+#: timetable.php:496 timetable.php:1446
+msgid "Row 1 style background color"
+msgstr ""
+
+#: timetable.php:503 timetable.php:1457
+msgid "Row 2 style background color"
+msgstr ""
+
+#: timetable.php:510 timetable.php:1474
+msgid "Table header font"
+msgstr ""
+
+#: timetable.php:517 timetable.php:1488
+msgid "or choose Google font"
+msgstr ""
+
+#: timetable.php:524 timetable.php:1502
+msgid "Google font subset"
+msgstr ""
+
+#: timetable.php:550 timetable.php:1510
+msgid "Font size (in px)"
+msgstr ""
+
+#: timetable.php:557 timetable.php:996 timetable.php:1524
+msgid "Custom CSS"
+msgstr ""
+
+#: timetable.php:688
+msgid ""
+"Import file: dummy-timetable.xml not found! Please upload import file "
+"manually into Media library. You can find this file inside zip archive "
+"downloaded from CodeCanyon."
+msgstr ""
+
+#: timetable.php:758
+msgid "Widgets data file not found! Please upload widgets data file manually."
+msgstr ""
+
+#: timetable.php:880
+msgid ""
+"dummy-timetable.xml file content and widgets settings has been imported "
+"successfully!"
+msgstr ""
+
+#: timetable.php:960
+msgid "Timetable Dummy Content"
+msgstr ""
+
+#: timetable.php:963
+msgid "Import dummy content"
+msgstr ""
+
+#: timetable.php:969
+msgid "Timetable Shortcode Generator"
+msgstr ""
+
+#: timetable.php:973 timetable.php:1537
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: timetable.php:974 timetable.php:1538
+msgid "Shortcode has been copied to clipboard!"
+msgstr ""
+
+#: timetable.php:981
+msgid "Main configuration"
+msgstr ""
+
+#: timetable.php:986
+msgid "Colors"
+msgstr ""
+
+#: timetable.php:991
+msgid "Fonts"
+msgstr ""
+
+#: timetable.php:1015
+msgid ""
+"Select the events that are to be displayed in timetable. Hold the CTRL key "
+"to select multiple items."
+msgstr ""
+
+#: timetable.php:1030
+msgid ""
+"Select the events categories that are to be displayed in timetable. Hold the "
+"CTRL key to select multiple items."
+msgstr ""
+
+#: timetable.php:1048
+msgid ""
+"Select the hour categories (if defined for existing event hours) for events "
+"that are to be displayed in timetable. Hold the CTRL key to select multiple "
+"items."
+msgstr ""
+
+#: timetable.php:1063
+msgid ""
+"Select the columns that are to be displayed in timetable. Hold the CTRL key "
+"to select multiple items."
+msgstr ""
+
+#: timetable.php:1080
+msgid "Choose hour measure for event hours."
+msgstr ""
+
+#: timetable.php:1096
+msgid "Choose between dropdown menu and tabs for event filtering."
+msgstr ""
+
+#: timetable.php:1113
+msgid "Choose between filtering by events or events categories."
+msgstr ""
+
+#: timetable.php:1126
+msgid "Specify text label for all events."
+msgstr ""
+
+#: timetable.php:1139
+msgid "Specify text label for all events categories."
+msgstr ""
+
+#: timetable.php:1173 widget-upcoming-events.php:310
+msgid "Custom: "
+msgstr ""
+
+#: timetable.php:1195
+msgid "Set to Yes to hide All Events view."
+msgstr ""
+
+#: timetable.php:1217
+msgid "Show end hour in first (hours) column"
+msgstr ""
+
+#: timetable.php:1227
+msgid ""
+"Set to Yes to show both start and end hour in timetable column with hours."
+msgstr ""
+
+#: timetable.php:1246
+msgid "Select one of the available event block layouts."
+msgstr ""
+
+#: timetable.php:1262
+msgid "Set to Yes to hide timetable rows without events."
+msgstr ""
+
+#: timetable.php:1278
+msgid "Set to Yes for nonclickable event blocks."
+msgstr ""
+
+#: timetable.php:1295
+msgid "Specify text align in timetable event block."
+msgstr ""
+
+#: timetable.php:1308
+msgid ""
+"Assign a unique identifier to a timetable if you use more than one table on "
+"a single page. Otherwise, leave this field blank."
+msgstr ""
+
+#: timetable.php:1321
+msgid "Specify timetable row height in pixels."
+msgstr ""
+
+#: timetable.php:1337
+msgid "Set to Yes to adjust timetable to mobile devices."
+msgstr ""
+
+#: timetable.php:1480
+msgid "Enter font name"
+msgstr ""
+
+#: timetable.php:1492
+msgid "Default"
+msgstr ""
+
+#: timetable.php:1736 timetable.php:1748 timetable.php:1772
+msgid "No events available!"
+msgstr ""
+
+#: timetable.php:1767
+#, php-format
+msgid "No events available in %1$s category!"
+msgstr ""
+
+#: timetable.php:2191
+msgid "No event hours available!"
+msgstr ""
+
+#: widget-upcoming-events.php:12
+msgid "Upcoming Events"
+msgstr ""
+
+#: widget-upcoming-events.php:196
+msgid "No upcoming events for today"
+msgstr ""
+
+#: widget-upcoming-events.php:263
+msgid "Title color"
+msgstr ""
+
+#: widget-upcoming-events.php:268
+msgid "Count"
+msgstr ""
+
+#: widget-upcoming-events.php:272
+msgid "Display settings"
+msgstr ""
+
+#: widget-upcoming-events.php:274
+msgid "today upcoming"
+msgstr ""
+
+#: widget-upcoming-events.php:275
+msgid "all upcoming"
+msgstr ""
+
+#: widget-upcoming-events.php:276
+msgid "current events"
+msgstr ""
+
+#: widget-upcoming-events.php:280
+msgid "All upcoming within next"
+msgstr ""
+
+#: widget-upcoming-events.php:281
+msgid "day(s)"
+msgstr ""
+
+#: widget-upcoming-events.php:316
+msgid "Time from"
+msgstr ""
+
+#: widget-upcoming-events.php:318
+msgid "server"
+msgstr ""
+
+#: widget-upcoming-events.php:319
+msgid "database"
+msgstr ""
+
+#: widget-upcoming-events.php:323
+msgid "Timezone"
+msgstr ""
+
+#: widget-upcoming-events.php:325
+msgid "localtime"
+msgstr ""
+
+#: widget-upcoming-events.php:326
+msgid "utc"
+msgstr ""
+
+#: widget-upcoming-events.php:366
+msgid "Auto scroll"
+msgstr ""
+
+#: widget-upcoming-events.php:368 widget-upcoming-events.php:386
+msgid "no"
+msgstr ""
+
+#: widget-upcoming-events.php:369 widget-upcoming-events.php:387
+msgid "yes"
+msgstr ""
+
+#: widget-upcoming-events.php:373
+msgid "Custom event url"
+msgstr ""
+
+#: widget-upcoming-events.php:377
+msgid "Event featured image"
+msgstr ""
+
+#: widget-upcoming-events.php:379
+msgid "Hide"
+msgstr ""
+
+#: widget-upcoming-events.php:380
+msgid "Show"
+msgstr ""
+
+#: widget-upcoming-events.php:391
+msgid "Background color"
+msgstr ""
+
+#: widget-upcoming-events.php:396
+msgid "Hover background color"
+msgstr ""
+
+#: widget-upcoming-events.php:401
+msgid "Text color"
+msgstr ""
+
+#: widget-upcoming-events.php:406
+msgid "Hover text color"
+msgstr ""
+
+#: widget-upcoming-events.php:411
+msgid "Item border color"
+msgstr ""
+
+#: widget-upcoming-events.php:416
+msgid "Hover item border color"
+msgstr ""

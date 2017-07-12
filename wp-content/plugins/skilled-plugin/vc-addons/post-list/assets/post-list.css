@@ -1,0 +1,43 @@
+.linp-post-list .item {
+    position: relative;
+    min-height: 117px;
+}
+.linp-post-list .item .img-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.linp-post-list .item .data {
+	/*margin-left: 118px;*/
+}
+.linp-post-list .item .meta-data {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.linp-post-list .item .meta-data .date,
+.linp-post-list .item .meta-data .author {
+	font-size: 13px;
+}
+.linp-post-list .item .meta-data .author {
+	font-style: italic;
+}
+.linp-post-list .item .data h1,
+.linp-post-list .item .data h2,
+.linp-post-list .item .data h3,
+.linp-post-list .item .data h4,
+.linp-post-list .item .data h5,
+.linp-post-list .item .data h6 {
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.linp-post-list .item .meta-data i {
+    position: relative;
+    top: 4px;
+    font-size: 20px;
+}
+
+.linp-post-list .item .meta-data span {
+    margin-right: 5px;
+}

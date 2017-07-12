@@ -1,0 +1,6 @@
+<div id="cart_step1" class="cart-step1">
+    <ab-ng-cart (setCourseData)="setCourseData($event)" (setWooData)="setWooData($event)"></ab-ng-cart>
+    <ab-ng-accommodation [wooData]="wooData" [course]="course" (setCourseData)="setCourseData($event)" (setWooData)="setWooData($event)"></ab-ng-accommodation>
+    <a href="/checkout.html" class="checkout-button button alt wc-forward cart-next-btn" id="btn_cart_proceed">Next</a>
+</div>
+<ab-ng-cart-view [courseData]="courseData" [wooData]="wooData"></ab-ng-cart-view>

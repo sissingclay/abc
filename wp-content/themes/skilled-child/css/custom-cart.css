@@ -1,0 +1,61 @@
+.sweet-alert
+{
+    left: 50% !important;
+    width: 560px !important;
+} 
+.cart-step1 .red{
+    border-color: red !important;
+}
+.cart-step1 select {
+  padding-left: 4px !important;
+}
+    
+div#accomodation_cart table td:first-child {
+    width: 280px;
+}
+td.priceright div {
+    max-width: 150px;
+    word-wrap: break-word;
+    line-height: 1.2;
+}
+.allergies-left {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div#acc_date, .accselovr {
+    float: left;
+    width: 100%;
+}
+div#acc_date label{
+    width: 100% !important;
+}
+div#accstartdate, .accselct {
+    width: 45%;
+    float: left;
+    margin-right: 4%;
+}
+div#accstartdate input, div#accenddate input {
+    width: 100%;
+}
+div#accenddate, div#div_accsupplement {
+    width: 50%;
+    float: left;
+}
+#div_accsupplement > select {
+    margin-right: 5px;
+    width: 100%;
+}
+.extra-second-section {
+    font-weight: bold;
+}
+div#accomodation_cart ul {
+    padding: 0;
+    list-style: none;
+      margin: 10px;
+}
+.check-list li{
+    line-height: 1.6;
+}
+.allergies-left .css-label {
+    margin-bottom: 22px;
+}

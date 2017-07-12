@@ -1,0 +1,4 @@
+close
+RenameFile "USER_csh1048474_DOMAIN_HostingP3.Local_FTP_REPLACEMENT_FOLDER\user\\htdocs\wp-content\plugins\woocommerce\assets\js\frontend\.pureftpd-upload.59254c3f.15.9f2.ed2f582c" "USER_csh1048474_DOMAIN_HostingP3.Local_FTP_REPLACEMENT_FOLDER\user\\htdocs\wp-content\plugins\woocommerce\assets\js\frontend\checkout.min.js"
+DeleteFile "USER_csh1048474_DOMAIN_HostingP3.Local_FTP_REPLACEMENT_FOLDER\user\\htdocs\wp-content\plugins\woocommerce\assets\js\frontend\.pureftpd-upload.59254c3f.15.9f2.ed2f582c"
+DeleteFile "USER_csh1048474_DOMAIN_HostingP3.Local_FTP_REPLACEMENT_FOLDER\user\\htdocs\wp-content\plugins\woocommerce\assets\js\frontend\.pureftpd-upload.59254c3f.15.9f2.ed2f582c"
