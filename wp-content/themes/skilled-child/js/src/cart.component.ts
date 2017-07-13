@@ -106,11 +106,13 @@ export class AbNgCartComponent implements OnInit {
   }
 
   getCourseData (value) {
+    console.log('this.cart.course', this.cart.course)
     this.postData(
       `${this.endpoint}?action=get_course_data`, 
       { 
         'action': 'get_course_data', 
-        'product_id': value
+        'product_id': value,
+        'previous_course_product_id': this.cart.course.previous_course_product_id || ''
       }, 
       true
     )
@@ -153,14 +155,15 @@ export class AbNgCartComponent implements OnInit {
     )
     .switchMap(response => {
       let data = response
-      this.cart.course.variation_id = data.variation_id
+      this.cart.course.previous_course_product_id = (this.cart.course && this.cart.course.current_course_product_id) ? this.cart.course.current_course_product_id : data.product_id
+      this.cart.course.current_course_product_id = data.product_id
       return this.genericService.saveData(
         `${this.endpoint}?action=set_cart_data`, 
         { 
           'product_id': this.cart.course.back_productid, 
           'variation_id': data.variation_id, 
           'quantity': 1,
-          'current_course_product_id': (this.woo_cart && this.woo_cart.course_product_id) ? parseInt(this.woo_cart.course_product_id) : '',
+          'previous_course_product_id': this.cart.course.previous_course_product_id,
           'back_ex_student': (this.cart.course.back_ex_student) ? this.cart.course.back_ex_student : 'no',
           'sessionData': this.cart.course
         }, 

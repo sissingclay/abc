@@ -17,35 +17,6 @@ function setCourseSession ($data) {
   $_SESSION['course']['back_course_level'] = $data->sessionData->back_course_level;
 
   $_SESSION['ex_no'] = $data->sessionData->back_ex_student;
-  // $_SESSION['accomodation']['back_accomdation'] = '';
-  // $_SESSION['accomodation']['back_meal_plan'] = '';
-  // $_SESSION['accomodation']['back_product_acc_zone'] = '';
-  // $_SESSION['accomodation']['back_accomodation_week'] = '';
-  // $_SESSION['accomodation']['back_acc_startdate'] = '';
-  // $_SESSION['accomodation']['back_acc_enddate'] = '';
-
-  // // Other
-  // $_SESSION['accomodation']['back_acc_supplement'] = '';
-  // $_SESSION['accomodation']['back_smoke'] = '';
-  // $_SESSION['accomodation']['back_petbother'] = '';
-  // $_SESSION['accomodation']['back_allergies'] = '';
-  // $_SESSION['accomodation']['back_allergiestype'] = '';
-  //  $_SESSION['accomodation']['back_bathroom'] = '';
-  // // Transport
-  // $_SESSION['accomodation']['back_transport_type'] = '';
-  // $_SESSION['accomodation']['back_flightname'] = '';
-  // $_SESSION['accomodation']['back_arrivaldate'] = '';
-  // $_SESSION['accomodation']['back_departuredate'] = '';
-  // $_SESSION['zone']='';
-  // $_SESSION['findingfee'] = '';
-  // $_SESSION['acc_startdate'] ='';
-  // $_SESSION['acc_startdate'] = ''; 
-  // $_SESSION['acc_enddate'] = '';
-  // $_SESSION['under_182']='';
-  // $_SESSION['under_18']='';
-  // $_SESSION['visaextrafee']='';
-  // // Visa
-  // $_SESSION['accomodation']['back_visa_require'] = '';
 }
 
 function unsetCourseSession () {
@@ -61,7 +32,7 @@ add_action( 'wp_ajax_nopriv_get_cart_data', 'get_cart_data' );
 function get_cart_data () {
   // Retrieve JSON payload
   $data = json_decode(file_get_contents('php://input'));
-  wp_send_json( cart_data($data) );
+  wp_send_json(cart_data($data));
 }
 
 function clearWooCart ($hasProducts) {
@@ -70,8 +41,6 @@ function clearWooCart ($hasProducts) {
     global $woocommerce;
     $cart = $woocommerce->cart;
     unsetCourseSession();
-
-    // pr($hasProducts);
 
     if (empty($hasProducts)) {
         $cart->empty_cart();
@@ -138,7 +107,7 @@ function set_cart_data () {
     session_start();
 
     global $woocommerce;
-    clearWooCart($data->current_course_product_id);
+    // clearWooCart($data->current_course_product_id);
     setCourseSession($data);
 
     $product_id = $data->product_id;
@@ -184,49 +153,49 @@ function get_course_data () {
     global $woocommerce;
     // $woocommerce->cart->empty_cart();
 
-    if (!($data->keepWooCart)) clearWooCart();
+    if (!($data->get_course_data)) clearWooCart($data->get_course_data);
 
-        $info = array(
-            'weeks' => array(),
-            'levels' => array(),
-            'extraFess' => $woocommerce->cart->get_fees()
-        );
+    $info = array(
+        'weeks' => array(),
+        'levels' => array(),
+        'extraFess' => $woocommerce->cart->get_fees()
+    );
 
-        if ($data->product_id && $data->product_id != '') {
-            $args = array('orderby' => 'term_id', 'order' => 'ASC', 'fields' => 'all');
-            $weeks = wp_get_object_terms( $data->product_id, 'pa_week', $args);
+    if ($data->product_id && $data->product_id != '') {
+        $args = array('orderby' => 'term_id', 'order' => 'ASC', 'fields' => 'all');
+        $weeks = wp_get_object_terms( $data->product_id, 'pa_week', $args);
 
-            // Sort array by name
-            $sortarray = array();
-            foreach ($weeks as $key => $row)
-            {
-                $sortarray[$key] = floatval($row->slug);
-            }
-            array_multisort($sortarray, SORT_ASC, $weeks);
-            // end
+        // Sort array by name
+        $sortarray = array();
+        foreach ($weeks as $key => $row)
+        {
+            $sortarray[$key] = floatval($row->slug);
+        }
+        array_multisort($sortarray, SORT_ASC, $weeks);
+        // end
 
-            foreach ( $weeks as $week ) {
-                $info['weeks'][] = array(
-                    'slug' => $week->slug,
-                    'name' => $week->name
-                );
-            }
+        foreach ( $weeks as $week ) {
+            $info['weeks'][] = array(
+                'slug' => $week->slug,
+                'name' => $week->name
+            );
+        }
 
 
-            $course_levels = wp_get_object_terms($data->product_id, 'pa_course_level');
+        $course_levels = wp_get_object_terms($data->product_id, 'pa_course_level');
 
-            if(count($course_levels) >= 4){
-                $tmp = $course_levels[3];
-                $course_levels[3] = $course_levels[2];
-                $course_levels[2] = $tmp;
-            }
+        if(count($course_levels) >= 4){
+            $tmp = $course_levels[3];
+            $course_levels[3] = $course_levels[2];
+            $course_levels[2] = $tmp;
+        }
 
-            foreach ( $course_levels as $course_level ) {
-                $info['levels'][] = array(
-                    'slug' => $course_level->slug,
-                    'name' => $course_level->name
-                );
-            }
+        foreach ( $course_levels as $course_level ) {
+            $info['levels'][] = array(
+                'slug' => $course_level->slug,
+                'name' => $course_level->name
+            );
+        }
         
         wp_send_json( $info );
     }

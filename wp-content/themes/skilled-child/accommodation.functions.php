@@ -157,48 +157,36 @@ function accommodationSession () {
     global $session;
 
     $sessionInfo = array(
-        'accomodation' => array(
-            'back_accomdation',
-            'back_meal_plan',
-            'back_product_acc_zone',
-            'back_accomodation_week',
-            'back_acc_startdate',
-            'back_acc_enddate',
-            'back_acc_supplement',
-            'back_smoke',
-            'back_petbother',
-            'back_allergies',
-            'back_allergiestype',
-            'back_bathroom',
-            'back_transport_type',
-            'back_flightname',
-            'back_departuredate',
-            'back_arrivaldate',
-            'back_visa_require'
-        ),
-        'ex_no',
-        'zone',
-        'findingfee',
-        'acc_startdate',
-        'acc_enddate',
-        'under_182',
-        'visaextrafee'
+        'back_accomdation', 'back_meal_plan', 'back_product_acc_zone', 'back_accomodation_week',
+        'back_acc_startdate', 'back_acc_enddate', 'back_acc_supplement', 'back_smoke',
+        'back_petbother', 'back_allergies', 'back_allergiestype', 'back_bathroom',
+        'back_transport_type', 'back_flightname', 'back_departuredate', 'back_arrivaldate', 'back_visa_require'
+    );
+
+    $other = array (
+        'ex_no', 'zone', 'acc_startdate', 'acc_enddate',
+        'under_182', 'visaextrafee'
     );
 
     foreach ($sessionInfo as $key => $value) {
-        if (is_array($value)) {
-            foreach ($value as $k => $val) {
-                pr($value);
-                pr($val);
-                pr($_SESSION[$value][$val]);
-                $_SESSION[$value][$val] = (isset($data[$val]) && $data[$val] !== '') ? $data[$val] : '';
-            }
-            $_SESSION[$value] = (isset($data[$value]) && $data[$value] !== '') ? $data[$value] : '';
-        }
+        $_SESSION['accomodation'][$value] = (isset($data->accomodation[$value]) && $data->accomodation[$value] !== '') ? $data->accomodation[$value] : '';
     }
-    // pr($_SESSION);
+
+    foreach ($other as $k => $val) {
+        $_SESSION[$val] = '';
+    }
+
+    $_SESSION['ex_no'] = getValurFromData('ex', $data);
+    $_SESSION['zone'] = getValurFromData('back_product_acc_zone', $data);
+    $_SESSION['acc_startdate'] = getValurFromData('back_acc_startdate', $data);
+    $_SESSION['acc_enddate'] = getValurFromData('back_acc_enddate', $data);
+    $_SESSION['under_182'] = getValurFromData('under_18', $data);
+    $_SESSION['visaextrafee'] = getValurFromData('visaextrafee', $data);
 }
 
+function getValurFromData ($prop) {
+    return (isset($data[$prop]) && $data[$prop] !== '') ? $data[$prop] : '';
+}
 
 function get_accommodation_extra_cart_data ($data) {
     global $woocommerce, $session;
@@ -207,40 +195,7 @@ function get_accommodation_extra_cart_data ($data) {
     $accommodation = array();
 
     accommodationSession();
-//------------------------------
-
-    // $_SESSION['accomodation']['back_accomdation'] = $data->back_accomdation;
-    // $_SESSION['accomodation']['back_meal_plan'] = $data->back_meal_plan;
-    // $_SESSION['accomodation']['back_product_acc_zone'] = $data->back_product_acc_zone;
-    // $_SESSION['accomodation']['back_accomodation_week'] = $data->back_accomodation_week;
-    // $_SESSION['accomodation']['back_acc_startdate'] = $data->back_acc_startdate;
-    // $_SESSION['accomodation']['back_acc_enddate'] = $data->back_acc_enddate;
-
-    // // Other
-    // $_SESSION['accomodation']['back_acc_supplement'] = $data->back_acc_supplement;
-        
-    // // }
-    // $_SESSION['accomodation']['back_smoke'] = $data->back_smoke;
-    // $_SESSION['accomodation']['back_petbother'] = $data->back_petbother;
-    // $_SESSION['accomodation']['back_allergies'] = $data->back_allergies;
-    // $_SESSION['accomodation']['back_allergiestype'] = $data->back_allergiestype;
-
-    // // Transport
-    // $_SESSION['accomodation']['back_transport_type'] = $data->back_transport_type;
-    // $_SESSION['accomodation']['back_flightname'] = $data->back_flightname;
-    // $_SESSION['accomodation']['back_arrivaldate'] = $data->back_arrivaldate;
-    // $_SESSION['accomodation']['back_departuredate'] = $data->back_departuredate;
-    // $_SESSION['visaextrafee'] = $data->visaextrafee;
-    // // Visa
-    // $_SESSION['accomodation']['back_visa_require'] = $data->back_visa_require;
-    // $_SESSION['accomodation']['back_bathroom'] = $data->back_bathroom;
-
-    // $_SESSION['ex_no'] = $data->ex;
-    // $_SESSION['zone'] = $data->back_product_acc_zone;
-    // $_SESSION['acc_startdate'] = $data->back_acc_startdate; 
-    // $_SESSION['acc_enddate'] = $data->back_acc_enddate; 
-    // $_SESSION['under_182'] = $data->under_18;
-
+    accommodationSession($data);
 
     //error_reporting(E_ALL);
     if (isset($data->extracharges) && isset($data->extracharges) != '') {
@@ -299,7 +254,7 @@ function get_accommodation_extra_cart_data ($data) {
                 if ($cat_name == 'Accomodation') {
                     $vt = explode("&ndash;", $variation_title_pre);
        
-                    $variable_product1= new WC_Product_Variation($variation_id);
+                    $variable_product1 = new WC_Product_Variation($variation_id);
                     $meta1 = get_post_meta($variation_id, 'attribute_pa_zone', true);
                     $term1 = get_term_by('slug', $meta1, 'pa_zone');
                     $proc_week = $term1->name;
@@ -307,7 +262,7 @@ function get_accommodation_extra_cart_data ($data) {
                     
                     $product_name = $vt[1];
 
-                    $_product = new WC_Product( $values['product_id'] );
+                    $_product = new WC_Product($values['product_id']);
                     $proc_price = $variable_product1->regular_price;
                     $proc_price = $proc_price * $acc_week;
 
@@ -367,7 +322,7 @@ function get_accommodation_extra_cart_data ($data) {
                 }
                    
             } elseif ($cat_name == 'Duration') {
-                $_product = new WC_Product( $values['product_id'] );
+                $_product = new WC_Product($values['product_id']);
                 $accommodation['supplement'][] = array(
                     'name' => 'Accommodation Supplement (High Season)',
                     'amount' => $woocommerce->cart->get_product_subtotal($_product, $values['quantity']),
@@ -377,7 +332,7 @@ function get_accommodation_extra_cart_data ($data) {
             }
             
             if ($values['product_id'] == 21195) {
-                $_product = new WC_Product( $values['product_id'] );
+                $_product = new WC_Product($values['product_id']);
                 $acc_week = $data->acc_week;
                 $accommodation['supplement'][] = array(
                     'name' => 'Under 18 supplement',
@@ -387,7 +342,7 @@ function get_accommodation_extra_cart_data ($data) {
             }
 
 			if ($values['product_id'] == 21126) {
-                $_product = new WC_Product( $values['product_id'] );
+                $_product = new WC_Product($values['product_id']);
                 $acc_week = $data->acc_week;
                 $accommodation['supplement'][] = array(
                     'name' => 'Summer supplement',
@@ -397,7 +352,7 @@ function get_accommodation_extra_cart_data ($data) {
             }
             
             if ($values['product_id'] == 21194) {
-                $_product = new WC_Product( $values['product_id'] );
+                $_product = new WC_Product($values['product_id']);
                 $acc_week = $data->acc_week;
                 $accommodation['supplement'][] = array(
                     'name' => 'Summer supplement',
@@ -407,7 +362,7 @@ function get_accommodation_extra_cart_data ($data) {
             }
             
             if ($values['product_id'] == 21133) {
-                $_product = new WC_Product( $values['product_id'] );
+                $_product = new WC_Product($values['product_id']);
                 $acc_week = $data->acc_week;
                 $accommodation['supplement'][] = array(
                     'name' => 'Private Bathroom',
@@ -485,7 +440,7 @@ function get_accommodation_extra_cart_data ($data) {
 
         if (!$variation_id) {
 			if($cat_slug == '3extras') {
-				$_product = new WC_Product( $values['product_id'] );
+				$_product = new WC_Product($values['product_id']);
                 $accommodation['extras'] = array(
                     'name' => $values[data]->post->post_title,
                     'amount' => number_format($_product->get_price(), 2)
@@ -514,7 +469,7 @@ function get_accommodation_extra_cart_data ($data) {
 		$accommodation['visa'] = array();
 	}
 
-    $amount2 = floatval( preg_replace( '#[^\d.]#', '', $woocommerce->cart->get_cart_total() ) );
+    $amount2 = floatval( preg_replace( '#[^\d.]#', '', $woocommerce->cart->get_cart_total()));
     $amount2= $amount2 + $arr_extrasum;
 
     $accommodation['total'] = number_format($amount2, 2, '.', '');
